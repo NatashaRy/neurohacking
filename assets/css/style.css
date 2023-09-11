@@ -3,10 +3,10 @@
 
 /* Global styles */
 .main-bg {
-    background-color: #F5F5F5;
+    background-color: #212121;
 }
 .alt-bg {
-    background-color: #212121;
+    background-color: #1A237E;
 }
 #sticky-top {
     height: 7vh;
@@ -23,18 +23,16 @@
 h1, h2, h3, nav, .primary-button, .secondary-button {
     font-family: 'proxima-nova', 'Verdana', sans-serif;
     font-weight: bold;
+    color: #00C853;
 }
 p, h4 {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.brand-text {
-    color: #00C853;
-}
 .main-text {
-    color: #212121;
+    color: #F5F5F5;
 }
 .alt-text {
-    color: #F5F5F5;
+    color: #00E5FF;
 }
 .text-center {
     text-align: center;
