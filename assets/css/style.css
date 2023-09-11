@@ -50,7 +50,9 @@ p {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center center; 
+    text-align: center center;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 .secondary-buttton {
     background-color: #1A237E;
