@@ -14,7 +14,13 @@
 .width-desktop {
     width: 66%;
 }
-
+.line-height-text {
+    line-height: 1.7em;
+}
+.line-height-headers {
+    line-height: 1em;
+}
+    
 /* Fonts and colors */
 h1, h2, h3, .primary-button, .secondary-button, .nav-item {
     font-family: 'proxima-nova', 'Verdana', sans-serif;
@@ -47,12 +53,14 @@ h3 {
 }
 h4 {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* Body-text */
 p {
     font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
 }
 
 /* Buttons och links */
@@ -126,6 +134,7 @@ a.nav-item:active {
     text-align: center;
 }
 .three-boxes-container {
+    width: 66%;
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -143,8 +152,16 @@ a.nav-item:active {
     align-self: right;
 }
 header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 270px 0px;
     background-image: url('');
-    height: 95vh;
-    margin: 0;
-    padding: 0;
+    height: 96vh;
+}
+#home {
+    display: block;
+}
+#intro {
+    font-size: 100px;
 }
