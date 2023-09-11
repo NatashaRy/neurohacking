@@ -8,6 +8,9 @@
 .alt-bg {
     background-color: #1A237E;
 }
+#sticky-top, footer {
+    background-color: #00C853;
+}
 #sticky-top {
     height: 7vh;
     width: full;
@@ -66,16 +69,20 @@ button {
     text-transform: uppercase;
     text-align: center center;
     border-radius: 15%;
-    padding: 8px 20px;
+    padding: 7px 20px;
     letter-spacing: 1.5px;
     border: 0;
     height: 3rem;
+    color: #212121#
+    
 }
 .primary-button {
-    background-color: #00E5FF;
+    background-color: #F5F5F5;
+    border: solid 2px #212121;
+    color: #212121;
 }
 .secondary-button {
-    background-color: #1A237E;
+    background-color: #00E5FF
 }
 /** a {
     color: #;
