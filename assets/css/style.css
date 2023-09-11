@@ -1,0 +1,56 @@
+/* Font-family from Adobe font */
+@import url("https://use.typekit.net/pvq6nma.css");
+
+/* Global styles */
+.main-bg {
+    background-color: #F5F5F5;
+}
+.alt-bg {
+    background-color: #212121;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'proxima-nova', 'Verdana', sans-serif;
+    color: #00C853;
+    font-weight: bold;
+}
+h1 {
+    font-size: x-large;
+}
+h2 {
+    font-size: large;
+}
+h3 {
+    font-size: medium;
+}
+
+/* Body text*/
+p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.main-text {
+    color: #212121;
+}
+.alt-text {
+    color: #F5F5F5;
+}
+
+/* Buttons */
+.primary-buttton {
+    background-color: #00E5FF;
+    font-family: 'proxima-nova', 'Verdana', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center center; 
+}
+.secondary-buttton {
+    background-color: #1A237E;
+    font-family: 'proxima-nova', 'Verdana', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center center;
+}
