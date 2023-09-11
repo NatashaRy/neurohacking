@@ -121,7 +121,6 @@ a.nav-item:active {
     color: #F5F5F5;
     background-color: #00E5FF;
 }
-
 /* Nav bar */
 #nav-bar {
     display: flex;
@@ -164,4 +163,8 @@ header {
 }
 #intro {
     font-size: 100px;
+}
+.highlight {
+    background-color: #15e26bc9;
+    padding: 1px 6px;
 }
