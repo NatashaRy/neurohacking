@@ -11,6 +11,9 @@
 #nav-bar, footer {
     background-color: #00C853;
 }
+.width-desktop {
+    width: 66%;
+}
 
 /* Fonts and colors */
 h1, h2, h3, .primary-button, .secondary-button, .nav-item {
@@ -123,7 +126,6 @@ a.nav-item:active {
     text-align: center;
 }
 .three-boxes-container {
-    width: 66%;
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: center;
