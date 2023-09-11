@@ -2,23 +2,21 @@
 @import url("https://use.typekit.net/pvq6nma.css");
 
 /* Global styles */
-body, .main-bg {
+.main-bg {
     background-color: #F5F5F5;
 }
 .alt-bg {
     background-color: #212121;
 }
 #sticky-top {
-    background-color: #1A237E;
-}
-#sticky-top {
-    height: 8vh;
+    height: 7vh;
     width: full;
     display: flex;
-    align-content: center;
-    padding: 10px;
-    justify-content: space-around;
-    margin: 0px;
+
+}
+.center-center {
+    justify-content: center;
+    align-items: center;
 }
 
 /* Fonts and colors */
@@ -45,6 +43,7 @@ p, h4 {
 /* Headings */
 h1 {
     font-size: 65px;
+    margin: 0px;
 }
 h2 {
     font-size: 50px;
@@ -65,11 +64,12 @@ p {
 /* Buttons och links */
 button {
     font-size: 18px;
+    width: 9.5em;
     text-transform: uppercase;
     text-align: center center;
-    border-radius: 10%;
+    border-radius: 15%;
     padding: 8px 20px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     border: 0;
     height: 3rem;
 }
@@ -89,6 +89,8 @@ hover {
 /* Nav */
 nav {
     font-weight: 500;
+    width: 50%;
+    justify-content: space-between;
 }
 
 header {
