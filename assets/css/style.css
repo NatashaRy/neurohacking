@@ -9,32 +9,16 @@ body, .main-bg {
     background-color: #212121;
 }
 
-/* Nav */
-nav {
+/* Fonts and colors */
+h1, h2, h3, nav, .primary-button, .secondary-button {
     font-family: 'proxima-nova', 'Verdana', sans-serif;
-    font-weight: 500;
-}
-
-/* Headings */
-h1, h2, h3 {
-    font-family: 'proxima-nova', 'Verdana', sans-serif;
-    color: #00C853;
     font-weight: bold;
 }
-h1 {
-    font-size: x-large;
-}
-h2 {
-    font-size: large;
-}
-h3 {
-    font-size: medium;
-}
-
-/* Body text*/
-p {
+p, h4 {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+}
+.brand-text {
+    color: #00C853;
 }
 .main-text {
     color: #212121;
@@ -43,24 +27,43 @@ p {
     color: #F5F5F5;
 }
 
+/* Headings */
+h1 {
+    font-size: x-large;
+    text-align: center;
+}
+h2 {
+    font-size: large;
+}
+h3 {
+    font-size: medium;
+}
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Body-text */
+p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
 /* Buttons och links */
-.primary-buttton {
-    background-color: #00E5FF;
-    font-family: 'proxima-nova', 'Verdana', sans-serif;
+button {
     font-size: 18px;
-    font-weight: bold;
     text-transform: uppercase;
     text-align: center center;
     border-radius: 5px;
     padding: 10px 20px;
 }
+
+.primary-buttton {
+    background-color: #00E5FF;
+}
 .secondary-buttton {
     background-color: #1A237E;
-    font-family: 'proxima-nova', 'Verdana', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center center;
 }
 /** a {
     color: #;
@@ -68,6 +71,15 @@ p {
 hover {
     color: #;
 } **/
+
+/* Nav */
+nav {
+    font-weight: 500;
+}
+
+header {
+    background-image: url('');
+}
 
 /* Footer */ 
 footer {
