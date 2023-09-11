@@ -2,6 +2,9 @@
 @import url("https://use.typekit.net/pvq6nma.css");
 
 /* Global styles */
+section {
+    padding: 50px auto;
+}
 .main-bg {
     background-color: #212121;
 }
@@ -10,9 +13,6 @@
 }
 #nav-bar, footer {
     background-color: #00C853;
-}
-.width-desktop {
-    width: 66%;
 }
 .line-height-text {
     line-height: 1.7em;
@@ -154,9 +154,9 @@ header {
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    padding: 270px 0px;
+    padding: 230px 0px;
     background-image: url('');
-    height: 96vh;
+    height: 45vh;
 }
 #home {
     display: block;
