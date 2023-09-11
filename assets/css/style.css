@@ -13,10 +13,12 @@ body, .main-bg {
 }
 #sticky-top {
     height: 8vh;
-    margin: 0;
-    padding 0;
-    display: inline-block;
-    flex-wrap: wrap;
+    width: full;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 0px;
 }
 
 /* Fonts and colors */
