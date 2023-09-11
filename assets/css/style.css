@@ -8,6 +8,16 @@ body, .main-bg {
 .alt-bg {
     background-color: #212121;
 }
+#sticky-top {
+    background-color: #1A237E;
+}
+#sticky-top {
+    height: 8vh;
+    margin: 0;
+    padding 0;
+    display: inline-block;
+    flex-wrap: wrap;
+}
 
 /* Fonts and colors */
 h1, h2, h3, nav, .primary-button, .secondary-button {
@@ -26,17 +36,19 @@ p, h4 {
 .alt-text {
     color: #F5F5F5;
 }
+.text-center {
+    text-align: center;
+}
 
 /* Headings */
 h1 {
-    font-size: x-large;
-    text-align: center;
+    font-size: 65px;
 }
 h2 {
-    font-size: large;
+    font-size: 50px;
 }
 h3 {
-    font-size: medium;
+    font-size: 35px;
 }
 h4 {
     font-size: 22px;
@@ -45,10 +57,8 @@ h4 {
 
 /* Body-text */
 p {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 17px;
 }
-
 
 /* Buttons och links */
 button {
@@ -56,13 +66,12 @@ button {
     text-transform: uppercase;
     text-align: center center;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 8px 15px;
 }
-
-.primary-buttton {
+.primary-button {
     background-color: #00E5FF;
 }
-.secondary-buttton {
+.secondary-button {
     background-color: #1A237E;
 }
 /** a {
@@ -79,9 +88,7 @@ nav {
 
 header {
     background-image: url('');
-}
-
-/* Footer */ 
-footer {
-    background-color: #1A237E;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
 }
