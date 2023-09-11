@@ -37,7 +37,7 @@ p {
     color: #F5F5F5;
 }
 
-/* Buttons */
+/* Buttons och links */
 .primary-buttton {
     background-color: #00E5FF;
     font-family: 'proxima-nova', 'Verdana', sans-serif;
@@ -53,4 +53,16 @@ p {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center center;
+}
+
+/** a {
+    color: #;
+} 
+hover {
+    color: #;
+} **/
+
+/* Footer */ 
+footer {
+    background-color: #1A237E;
 }
