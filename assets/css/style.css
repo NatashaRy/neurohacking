@@ -24,6 +24,8 @@ section {
 #nav-bar, footer {
     background-color: #1A237E;
 }
+
+/* Containers */
 .width-desktop {
     display: inline-flex;
     flex-wrap: nowrap;
@@ -33,11 +35,11 @@ section {
 .two-column-container {
     display: inline-flex;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 25px;
     width: 70%;
 }
-.left-content-column {
-
+.left-content-column .right-content-column {
+    width: 50%;
 }
 
 /* Fonts and colors */
@@ -45,6 +47,8 @@ h1, h2, h3, .primary-button, .secondary-button, .nav-item {
     font-family: 'proxima-nova', 'Verdana', sans-serif;
     font-weight: bold;
     color: #00C853;
+    margin: 0;
+    padding: 0;
 }
 p, a, h4 {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -70,8 +74,6 @@ h2 {
 }
 h3 {
     font-size: 35px;
-    margin: 0;
-    padding: 0;
 }
 h4 {
     font-size: 22px;
