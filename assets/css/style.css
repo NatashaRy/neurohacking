@@ -158,7 +158,7 @@ header {
     background-size: cover;
     margin: 0;
     text-align: center;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,4 +199,36 @@ a.challange-cta:hover {
 #subscribe {
     background-color: #00C853;
     color: #F5F5F5;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: space-between;
+    height: 250px;
+    margin: 0;
+    width: 100%;
+    z-index: 50;
+}
+#footer-left-box {
+    max-width: 20%;
+}
+.nn-logo {
+    max-width: 99%;
+}
+#footer-center-box {
+    max-width: 40%;
+}
+#footer-right-box {
+    max-width: 40%;
+}
+.social-media-button {
+    background-color: #F5F5F5;
+    border: solid 2px;
+    border-radius: 25%;
+}
+.some-icon {
+    size: 30px;
 }
