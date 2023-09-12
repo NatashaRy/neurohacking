@@ -30,6 +30,16 @@ section {
     gap: 10px;
     width: 70%;
 }
+.two-column-container {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 70%;
+}
+.left-content-column {
+
+}
+
 /* Fonts and colors */
 h1, h2, h3, .primary-button, .secondary-button, .nav-item {
     font-family: 'proxima-nova', 'Verdana', sans-serif;
@@ -295,4 +305,5 @@ svg {
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #1A237E;
 }
