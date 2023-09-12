@@ -146,7 +146,10 @@ a.secondary-button:hover {
 }
 .content-box-left {
     width: 15%;
-    align-self: left;
+    text-align: left;
+}
+#nn-icon {
+    max-width: 80px;
 }
 .content-box-center {
     width: 70%;
@@ -175,7 +178,7 @@ a.nav-item:active {
 }
 .content-box-right {
     width: 17%;
-    align-self: right;
+    text-align: right;
 }
 
 /* Header */
