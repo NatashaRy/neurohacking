@@ -2,6 +2,9 @@
 @import url("https://use.typekit.net/pvq6nma.css");
 
 /* Global styles */
+body {
+    margin: 0px;
+}
 section {
     padding: 50px auto;
     margin: 0px;
@@ -95,9 +98,10 @@ a.secondary-button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 55px;
+    height: 60px;
     margin: 0;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     z-index: 100;
     text-align: center;
 }
@@ -106,23 +110,28 @@ a.secondary-button:hover {
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
 }
 .content-box-left {
-    width: 17%;
+    width: 15%;
     align-self: left;
 }
+.nn-icon {
+    max-inline-size: 40%;
+}
 .content-box-center {
-    width: 65%;
+    width: 70%;
 }
 a.nav-item {
     padding: 15px;
-    margin: 3px 25px;
+    margin: 3px 15px;
     text-decoration: none;
     color: #F5F5F5;
 }
 a.nav-item:hover {
     padding: 15px;
+    margin-top: 10px;
     text-decoration: none;
     color: #212121;
     background-color: #F5F5F5;
@@ -147,9 +156,8 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
-    /* padding: 230px 0px; */
     height: 95vh;
     display: flex;
     align-items: center;
@@ -180,7 +188,7 @@ a.challange-cta:hover {
     background-color: #1A237E;
     color: #F5F5F5;
     border-color: #00E5FF;
-    box-shadow: 2px 3px #F5F5F5;
+    box-shadow: 4px 7px #F5F5F5;
     font-size: 24px;
     padding: 8px 24px;
     text-decoration: none;
