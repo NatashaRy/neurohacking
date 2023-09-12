@@ -143,11 +143,13 @@ a.nav-item:active {
 
 /* Header */
 header {
-    width: 50%;
+    background-image: url(/assets/images/Illustration-of-beam-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0 auto;
     text-align: center;
     /* padding: 230px 0px; */
-    background-image: url('');
     height: 95vh;
     display: flex;
     align-items: center;
@@ -157,7 +159,7 @@ header {
 #hero {
     display: inline-flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: inherit;
     font-size: 100px;
     line-height: 1em;
 }
