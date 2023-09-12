@@ -5,6 +5,9 @@
 body {
     margin: 0px;
 }
+.width-desktop {
+    max-width: 70%;
+}
 section {
     padding: 50px auto;
     margin: 0px;
@@ -14,6 +17,9 @@ section {
 }
 .alt-bg {
     background-color: #00E5FF;
+}
+.light-bg {
+    background-color: #F5F5F5;
 }
 #nav-bar, footer {
     background-color: #1A237E;
@@ -53,8 +59,6 @@ h4 {
     font-size: 22px;
     font-weight: 500;
 }
-
-/* Body-text */
 p {
     font-size: 17px;
     line-height: 1.5em;
@@ -78,6 +82,12 @@ a.primary-button {
 }
 a.secondary-button {
     background-color: #00E5FF
+}
+a {
+    color:#00C853;
+}
+a:hover {
+    color: #00E5FF;
 }
 a.primary-button:hover {
     background-color: #00E5FF;
@@ -106,7 +116,6 @@ a.secondary-button:hover {
     text-align: center;
 }
 .three-boxes-container {
-    width: 66%;
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -116,9 +125,6 @@ a.secondary-button:hover {
 .content-box-left {
     width: 15%;
     align-self: left;
-}
-.nn-icon {
-    max-inline-size: 40%;
 }
 .content-box-center {
     width: 70%;
@@ -195,7 +201,7 @@ a.challange-cta:hover {
     text-transform: uppercase;
 }
 
-/* Subscribe */
+/* Subscribe form */
 #subscribe {
     background-color: #00C853;
     color: #F5F5F5;
@@ -206,29 +212,35 @@ footer {
     display: flex;
     padding-top: 20px;
     justify-content: center;
-    align-items: space-between;
     height: 250px;
     margin: 0;
     width: 100%;
     z-index: 50;
 }
+.footer-boxes-container {
+    display: inline-flex;
+    justify-content: center;
+}
 #footer-left-box {
     max-width: 20%;
 }
 .nn-logo {
-    max-width: 99%;
 }
-#footer-center-box {
-    max-width: 40%;
+.footer-box-right {
+    align-items: top;
 }
-#footer-right-box {
-    max-width: 40%;
+.some-icons {
+    display: inline-flex;
+    align-items: right;
 }
-.social-media-button {
-    background-color: #F5F5F5;
-    border: solid 2px;
-    border-radius: 25%;
+ul {
+    margin: 10px;
+    padding: 0px;
 }
-.some-icon {
-    size: 30px;
+svg {
+    height: 1.6em;
+    width: 1.6em;
+    align-self: center;
+    padding: 10px;
+    border-radius: 25px;
 }
