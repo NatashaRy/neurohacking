@@ -62,7 +62,7 @@ h4 {
 p {
     font-size: 17px;
     line-height: 1.5em;
-    margin: 0;
+    margin: 20px 0;
 }
 
 /* Buttons och links */
@@ -210,37 +210,55 @@ a.challange-cta:hover {
 /* Footer */
 footer {
     display: flex;
-    padding-top: 20px;
-    justify-content: center;
-    height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
     margin: 0;
     width: 100%;
     z-index: 50;
 }
 .footer-boxes-container {
     display: inline-flex;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 70%;
+    gap: 30px;
 }
-#footer-left-box {
-    max-width: 20%;
+.footer-box-left {
+    max-width: 40%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
-.nn-logo {
+#nn-logotype {
+    max-width: 200px;
 }
-.footer-box-right {
-    align-items: top;
-}
-.some-icons {
+.some-icons-bg {
+    align-self: left;
+    border-radius: 50px;
+    border: solid 2px #00E5FF;
     display: inline-flex;
-    align-items: right;
+    margin-right: 15px;
 }
 ul {
-    margin: 10px;
+    margin: 0 px;
     padding: 0px;
 }
 svg {
-    height: 1.6em;
-    width: 1.6em;
+    height: 1.5em;
+    width: 1.5em;
+    padding: 8px;
     align-self: center;
-    padding: 10px;
-    border-radius: 25px;
+}
+.footer-box-center {
+    width: 31%;
+    margin: 0;
+    padding: 0;
+    align-items: top;
+}
+.footer-box-right {
+    width: 31%;
+    margin: 0;
+    padding: 0;
+    align-self: right;
 }
