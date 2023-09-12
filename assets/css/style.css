@@ -4,6 +4,7 @@
 /* Global styles */
 section {
     padding: 50px auto;
+    margin: 0px;
 }
 .main-bg {
     background-color: #212121;
@@ -14,13 +15,7 @@ section {
 #nav-bar, footer {
     background-color: #00C853;
 }
-.line-height-text {
-    line-height: 1.7em;
-}
-.line-height-headers {
-    line-height: 1em;
-}
-    
+
 /* Fonts and colors */
 h1, h2, h3, .primary-button, .secondary-button, .nav-item {
     font-family: 'proxima-nova', 'Verdana', sans-serif;
@@ -71,16 +66,7 @@ a.button {
     border-radius: 17%;
     padding: 3px 18px;
     letter-spacing: 1.5px;
-    color: #212121
-}
-a.button:hover {
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 17%;
-    padding: 2px 16px;
-    letter-spacing: 1.5px;
-    color: #212121
+    /* color: #212121 */
 }
 a.primary-button {
     background-color: #F5F5F5;
@@ -94,32 +80,14 @@ a.primary-button:hover {
     background-color: #00E5FF;
     border: solid 2px #212121;
     color: #212121;
-    margin: 1px;
+    margin-top: 1px;
     box-shadow: 2px 3px #F5F5F5;
-}
-.secondary-button:hover {
-    background-color: #00E5FF
-}
-a.nav-item {
-    padding: 15px;
+    font-size: 18px;
     text-decoration: none;
-    color: #212121;
-    background-color: #00C853;
-}
-a.nav-item:hover {
-    padding: 17px;
-    text-decoration: none;
-    color: #1A237E;
-    background-color: #00E5FF;
     text-transform: uppercase;
-    font-size: 14px;
-    box-shadow: 4px 5px #1A237E;
 }
-a.nav-item:active {
-    padding: 15px;
-    text-decoration: none; 
-    color: #F5F5F5;
-    background-color: #00E5FF;
+a.secondary-button:hover {
+    background-color: #00E5FF
 }
 /* Nav bar */
 #nav-bar {
@@ -146,25 +114,79 @@ a.nav-item:active {
 .content-box-center {
     width: 65%;
 }
+a.nav-item {
+    padding: 15px;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #212121;
+    background-color: #00C853;
+}
+a.nav-item:hover {
+    padding: 17px;
+    text-decoration: none;
+    color: #1A237E;
+    background-color: #00E5FF;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: 4px 5px #1A237E;
+}
+a.nav-item:active {
+    padding: 15px;
+    text-decoration: none; 
+    color: #F5F5F5;
+    background-color: #00E5FF;
+}
 .content-box-right {
     width: 17%;
     align-self: right;
 }
+
+/* Header */
 header {
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    padding: 230px 0px;
+    /* padding: 230px 0px; */
     background-image: url('');
-    height: 45vh;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-#home {
-    display: block;
-}
-#intro {
+#hero {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     font-size: 100px;
+    line-height: 1em;
+}
+.introducing-neurohacking {
+    line-height: 1.7em;
 }
 .highlight {
     background-color: #15e26bc9;
     padding: 1px 6px;
+}
+a.challange-cta {
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+a.challange-cta:hover {
+    margin-top: 40px;
+    background-color: #1A237E;
+    color: #F5F5F5;
+    border-color: #00E5FF;
+    box-shadow: 2px 3px #F5F5F5;
+    font-size: 24px;
+    padding: 8px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Subscribe */
+#subscribe {
+    background-color: #00C853;
+    color: #F5F5F5;
 }
