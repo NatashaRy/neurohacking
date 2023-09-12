@@ -222,13 +222,13 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 70%;
-    gap: 30px;
+    gap: 10%;
 }
 .footer-box-left {
-    max-width: 40%;
+    max-width: 35%;
     margin: 0;
-    padding: 0;
     text-align: left;
+    padding-right: 15px;
 }
 #nn-logotype {
     max-width: 200px;
