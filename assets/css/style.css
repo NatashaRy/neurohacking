@@ -10,10 +10,10 @@ section {
     background-color: #212121;
 }
 .alt-bg {
-    background-color: #1A237E;
+    background-color: #00E5FF;
 }
 #nav-bar, footer {
-    background-color: #00C853;
+    background-color: #1A237E;
 }
 
 /* Fonts and colors */
@@ -25,10 +25,10 @@ h1, h2, h3, .primary-button, .secondary-button, .nav-item {
 p, h4 {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.text {
+.main-text-color {
     color: #F5F5F5;
 }
-.alt-text {
+.alt-text-color {
     color: #00E5FF;
 }
 .text-center {
@@ -89,6 +89,7 @@ a.primary-button:hover {
 a.secondary-button:hover {
     background-color: #00E5FF
 }
+
 /* Nav bar */
 #nav-bar {
     display: flex;
@@ -116,19 +117,18 @@ a.secondary-button:hover {
 }
 a.nav-item {
     padding: 15px;
-    margin: 0px 20px;
+    margin: 3px 25px;
     text-decoration: none;
-    color: #212121;
-    background-color: #00C853;
+    color: #F5F5F5;
 }
 a.nav-item:hover {
-    padding: 17px;
+    padding: 15px;
     text-decoration: none;
-    color: #1A237E;
-    background-color: #00E5FF;
+    color: #212121;
+    background-color: #F5F5F5;
     text-transform: uppercase;
     font-size: 14px;
-    box-shadow: 4px 5px #1A237E;
+    box-shadow: 4px 5px #00E5FF;
 }
 a.nav-item:active {
     padding: 15px;
