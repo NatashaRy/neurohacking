@@ -121,11 +121,25 @@ a.secondary-button:hover {
     margin: 0;
     padding: o;
 }
+.flex-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Tablets */
+@media only screen and (min-width: 600px) {
+
+    /* Header */
+    
+    /* Body */
+    
+    /* Footer */
+}
+
 
 /* Desktop */
-.flex {
-    display: flex;
-}
+
 
 /* Header */
 #nav-bar {
@@ -164,9 +178,6 @@ a.nav-item:hover {
 }
 
 /* Body */
-.width-desktop {
-    width: 70%;
-}
 /* Hero */
 #home {
     background-image: url(/assets/images/Illustration-of-beam-background.png);
@@ -291,29 +302,7 @@ svg {
     align-self: center;
     padding-top: 4px;
     }
-
-    
-/* Tablets */
-@media only screen and (max-width: 768px) {
-
-    /* Header */
-    
-    /* Body */
-    
-    /* Footer */
 }
-
-/* Mobile phones */
-@media only screen and (max-width: 480px) {
-
-    /* Header */
-    
-    /* Body */
-    
-    /* Footer */  
-}
-    
-
 /* Layout SKA FIXAS!!!! */
 .three-col-boxes {
     display: inline-flex;
@@ -349,12 +338,4 @@ svg {
 .right-content-column {
     width: 40%;
     text-align: right;
-}
-
-.grid {
-    display: grid;
-    flex-wrap: nowrap;
-    gap: 30px;
-    width: 100%;
-    justify-items: center;
 }
