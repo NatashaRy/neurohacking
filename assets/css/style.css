@@ -121,26 +121,17 @@ a.secondary-button:hover {
     margin: 0;
     padding: o;
 }
-.flex-conatiner {
+
+
+
+/* Containers */
+.flex-container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
-
-/* Tablets */
-@media only screen and (min-width: 600px) {
-
-    /* Header */
-    
-    /* Body */
-    
-    /* Footer */
-}
-
 
 /* Desktop */
-
-
 /* Header */
 #nav-bar {
     height: 60px;
@@ -149,23 +140,26 @@ a.secondary-button:hover {
     width: 100%;
     box-shadow: 0 4px 8px #21212188;
 }
+.nav-bar-left, .nav-bar-center, .nav-bar-right {
+    margin: 0 10px;
+    gap: 20px;
+}
+.nav-bar-left, .nav-bar-right {
+    display: inline-flex;
+}
+.nav-bar-center {
+    display: flex;
+    gap: 2%;
+    width: 70%;
+}
 #nn-icon {
     margin-top: 5px;
     max-width: 68px;
     max-height: 70px;
 }
-#header-content-boxes {
-    justify-content: space-between;
-}
-#header-box-left, #header-box-right {
-    width: 10%;
-}
-#header-box-center {
-    width: 80%;
-}
 a.nav-item {
-    padding: 15px;
-    margin: 3px 15px;
+    padding: 10px;
+    margin: 4px 8px;
     text-decoration: none;
     text-transform: uppercase;
     color: #F5F5F5;
@@ -175,6 +169,25 @@ a.nav-item:hover {
     color: #212121;
     background-color: #F5F5F5;
     box-shadow: 4px 5px #00E5FF;
+}
+
+/* Body */
+/* Hero */
+
+/* Media query max 1080px */
+@media screen and (max-width: 1080px) {
+/* Header */
+.nav-bar-center {
+display: none;
+}
+}
+
+/* Media query max 768px */
+@media screen and (max-width: 768px) {
+/* Header */
+.nav-bar-center {
+display: none;
+}
 }
 
 /* Body */
@@ -304,6 +317,8 @@ svg {
     }
 }
 /* Layout SKA FIXAS!!!! */
+
+/*
 .three-col-boxes {
     display: inline-flex;
     align-items: center;
@@ -338,4 +353,4 @@ svg {
 .right-content-column {
     width: 40%;
     text-align: right;
-}
+} */
