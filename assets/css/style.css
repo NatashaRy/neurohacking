@@ -109,7 +109,7 @@ a.primary-button:hover {
     background-color: #F5F5F5;
     /* border: solid 2px #212121; */
     color: #212121;
-    box-shadow: 3px 5px  #00E5FF;
+    box-shadow: 2px 5px  #00E5FF;
 }
 a.secondary-button:hover {
     background-color: #00E5FF
