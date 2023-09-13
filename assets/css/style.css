@@ -10,14 +10,6 @@ body {
 .main-bg {
     background-color: #212121;
 }
-.benefits-bg {
-    background-color: #00E5FF;
-    background-image: url(/assets/images/Technologic-BG-picture.png);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 .light-bg {
     background-color: #F5F5F5;
 }
@@ -79,9 +71,6 @@ a.primary-button {
     border: solid 2px #212121;
     color: #212121;
 }
-a.secondary-button {
-    background-color: #00E5FF
-}
 a.primary-button:hover {
     font-size: 16px;
     background-color: #F5F5F5;
@@ -89,10 +78,12 @@ a.primary-button:hover {
     color: #212121;
     box-shadow: 4px 6px  #00E5FF;
 }
+a.secondary-button {
+    background-color: #00E5FF
+}
 a.secondary-button:hover {
     background-color: #00E5FF
 }
-/* Knappar som är aktiva, är knapparna skapade på rätt sätt???? */
 
 /* Layout and white space */
 .no-space {
@@ -100,12 +91,12 @@ a.secondary-button:hover {
     padding: o;
 }
 
-/* Desktop */
 /* Containers */
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5%;
 }
 .flex-container-duo {
     display: flex;
@@ -130,15 +121,16 @@ a.secondary-button:hover {
 
 /* Headings */
 .large-heading {
-    font-size: 7em;
+    font-size: 5.5em;
     line-height: 1em;
 }
 .regular-heading {
     font-size: 50px;
     line-height: 1.2em;
+    z-index: 2;
 }
 .sub-heading {
-    font-size: 1.8em;
+    font-size: 1.6em;
     line-height: 1.1em;
     margin: 0;
     color: #1A237E;
@@ -146,7 +138,7 @@ a.secondary-button:hover {
 
 /* Body text */
 .large-body {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: 500;
     line-height: 1.8em;
     margin: 30px 0;
@@ -174,15 +166,11 @@ a.secondary-button:hover {
     width: 100%;
     box-shadow: 0 4px 8px #21212188;
 }
-.nav-bar-left, .nav-bar-center, .nav-bar-right {
+.header-left, .header-right {
     margin: 0 10px;
-    gap: 20px;
+    width: 15%;
 }
-.nav-bar-left, .nav-bar-right {
-    display: inline-flex;
-}
-.nav-bar-center {
-    display: flex;
+.header-center {
     gap: 2%;
     width: 70%;
 }
@@ -221,7 +209,7 @@ a.nav-item:hover {
     height: 50vh;
     background-color: #ffffff6e;
     box-shadow: 1px 4px 8px #00e5ff71;
-    padding: 5em 7em;
+    padding: 7em;
 }
 .large-heading {
     color: #00C853;
@@ -266,22 +254,33 @@ a.challange-cta:hover {
 }
 
 /* Benefits */
+.benefits-bg {
+    background-color: #00E5FF;
+    background-image: url(/assets/images/Technologic-BG-picture.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 #benefits {
     padding: 7em 15em 12em 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .grid > .benefit-card {
     background-color: #F5F5F5;
     border: solid 2px #1A237E;
-    box-shadow: 1px 4px 9px #575757c5;
+    box-shadow: 1px 5px 7px #00e5ff9a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1em;
     opacity: 100%;
 }
 .benefit-card {
-    padding: 4em 4em;
+    padding: 10% 15%;
 }
 
 /* Subscribe form */
@@ -295,21 +294,23 @@ a.challange-cta:hover {
 }
 
 /* Footer */
-#footer {
-    justify-content: space-evenly;
-    padding-top: 30px;
-    height: 45vh;
-    z-index: 50;
-}
 #contact {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 50px
+    gap: 3em;
+    align-items: center;
     justify-content: center;
 }
-.footer-box-container {
-    justify-content: space-between;
-    gap: 50px;
+.footer-box-left {
+    flex: 1.3;
 }
-#footer-box-left {
-    width: 30%;
+.footer-box-center {
+    flex: 1;
+    align-self: self-start;
+}
+.footer-box-left {
+    flex: 1.5;
 }
 #nn-logotype {
     max-width: 250px;
@@ -330,26 +331,21 @@ svg {
     padding: 8px;
     align-self: center;
 }
-#footer-box-center {
+.footer-box-center {
     display: block;
-    width: 20%;
-    align-self: self-start;
-    margin-left: 25px;
 }
 #get-in-touch {
     color: #F5F5F5;
-    margin-bottom: 1.35em;
-}
-#footer-box-right {
-    width: 50%;
+    margin-top: 0.4em;
+    margin-bottom: 1.55em;
 }
 #map {
-    width: 630px;
-    height: 300px;
+    width: 50em;
+    height: 20em;
     border: solid 2px #00E5FF;
     text-align: right;
     padding: 0;
-    margin: 0;
+    margin: 01em;
 }
 .cred {
     display: block;
@@ -368,6 +364,12 @@ svg {
 
 /* Media query max 1080px */
 @media screen and (max-width: 1080px) {
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* Headings */
 .large-heading {
 font-size: 5em;
@@ -388,8 +390,7 @@ font-weight: 500;
 }
 .regular-text {
 font-size: 17px;
-line-height: 1.9em;
-margin: 10px 0;
+line-height: 2em;
 color: #F5F5F5;
 }
 .small-text {
@@ -400,97 +401,51 @@ font-size: 12px;
 .nav-bar-center {
     display: none;
     }
+#home {
+    width: 100%
+}
     .hero {
         padding: 5%;
     }
-}
 
-
-
-/* Media query max 768px */
-@media screen and (max-width: 768px) {
-/* Containers */
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.flex-container-duo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* About */
+#about {
+    padding: 5em;
     flex-direction: column;
-    max-width: 95%;
-}
-/* Headings */
-.large-heading {
-font-size: 3em;
-line-height: 1em;
-}
-.regular-heading {
-font-size: 50px;
-line-height: 1.2em;
-}
-.sub-heading {
-font-size: 35px;
-}
-
-/* Body text */
-.large-body {
-font-size: 1.1em;
-font-weight: 500;
-}
-.regular-text {
-font-size: 17px;
-line-height: 1.9em;
-margin: 10px 0;
-color: #F5F5F5;
-}
-.small-text {
-font-size: 12px;
-}
-
-/* Header */
-.nav-bar-center {
-display: none;
-}
-}
-
-
-
-/*
-.three-col-boxes {
-    display: inline-flex;
-    align-items: center;
     justify-content: center;
-    gap: 20px;
-} 
-.content-box-left {
-    width: 30%;
-    text-align: left;
+    align-items: center;
 }
-.content-box-center {
-    width: 30%;
+.img-about {
+    margin-top: 2em;
+}
+#benefits {
+    overflow: hidden;
+}
+.benefit-card {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.benefit-heading {
     text-align: center;
 }
-.content-box-right {
-    width: 30%;
-    text-align: right;
+#contact {
+    width: 90%;
+    margin: 0;
+    padding: 0;
 }
-.two-column-container {
-    display: inline-flex;
-    flex-wrap: nowrap;
+.flex-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5%;
-    width: 70%;
-    padding: 50px 0;
 }
-.left-content-column  {
-    width:60%;
-    text-align: left;
+.content-box-left, .content-box-right, .content-box-center {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
-.right-content-column {
-    width: 40%;
-    text-align: right;
-} */
+#map {
+    width: 95%;
+}
+}
