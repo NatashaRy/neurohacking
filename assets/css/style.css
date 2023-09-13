@@ -176,7 +176,7 @@ a.nav-item:hover {
 /* Body */
 /* Hero */
 #home {
-    background-image: url(https://www.canva.com/design/DAFuUi2luUk/eq8ebx90iFFdIfYULXvIYQ/edit?utm_content=DAFuUi2luUk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton);
+    background-image: url(/assets/images/Technologic\ BG-picture.png) alt="";
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -187,7 +187,123 @@ a.nav-item:hover {
     max-width: 80%;
     height: 40vh;
 }
+.large-heading {
+    color: #00C853;
+    text-shadow: 1px 1px 5px #F5f5f;
+}
+.highlight {
+    background-color: #15e26bc9;
+    padding: 1px 6px;
+}
+a.challange-cta {
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+a.challange-cta:hover {
+    margin-top: 40px;
+    background-color: #1A237E;
+    color: #F5F5F5;
+    border-color: #00E5FF;
+    box-shadow: 4px 7px #F5F5F5;
+    font-size: 24px;
+    padding: 8px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
+/* About */
+#about-box-left {
+    width: 55%;
+}
+#about-box-right {
+    width: 40%;
+}
+#img-about {
+    max-width: 530px;
+}
+
+/* Subscribe form */
+#heading-subscribe {
+    background-image: url(/assets/images/Illustration-of-beam-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #00C853;
+    color: #F5F5F5;
+}
+
+/* Footer */
+#footer {
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 45vh;
+    z-index: 50;
+}
+#contact {
+    justify-content: center;
+}
+.footer-box-container {
+    justify-content: space-between;
+    gap: 50px;
+}
+#footer-box-left {
+    width: 30%;
+}
+#nn-logotype {
+    max-width: 250px;
+}
+.some-icons-bg {
+    align-self: left;
+    border-radius: 50px;
+    border: solid 2px #00E5FF;
+    display: inline-flex;
+}
+ul {
+    margin: 0 px;
+    padding: 0px;
+}
+svg {
+    height: 1.5em;
+    width: 1.5em;
+    padding: 8px;
+    align-self: center;
+}
+#footer-box-center {
+    display: block;
+    width: 20%;
+    align-self: self-start;
+    margin-left: 25px;
+}
+#get-in-touch {
+    color: #F5F5F5;
+    margin-bottom: 1.35em;
+}
+#footer-box-right {
+    width: 50%;
+}
+#map {
+    width: 630px;
+    height: 300px;
+    border: solid 2px #00E5FF;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.cred {
+    display: block;
+    width: 100%;
+    align-self: baseline;
+    height: 6%;
+}
+#copyright {
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1A237E;
+    align-self: center;
+    padding-top: 4px;
+    }
 
 /* Media query max 1080px */
 @media screen and (max-width: 1080px) {
@@ -268,122 +384,6 @@ display: none;
 }
 
 
-
-
-#introducing-neurohacking {
-    line-height: 1.8em;
-    margin: 30px 0;
-}
-.highlight {
-    background-color: #15e26bc9;
-    padding: 1px 6px;
-}
-a.challange-cta {
-    margin-top: 40px;
-    padding: 10px 30px;
-    font-size: 20px;
-}
-a.challange-cta:hover {
-    margin-top: 40px;
-    background-color: #1A237E;
-    color: #F5F5F5;
-    border-color: #00E5FF;
-    box-shadow: 4px 7px #F5F5F5;
-    font-size: 24px;
-    padding: 8px 24px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-/* About */
-#about-box-left {
-    width: 55%;
-}
-#about-box-right {
-    width: 40%;
-}
-#img-about {
-    max-width: 530px;
-}
-
-/* Subscribe form */
-#heading-subscribe {
-    background-color: #00C853;
-    color: #F5F5F5;
-}
-
-/* Footer */
-#footer {
-    justify-content: space-evenly;
-    padding-top: 30px;
-    height: 45vh;
-    z-index: 50;
-}
-#contact {
-    justify-content: center;
-}
-.footer-box-container {
-    justify-content: space-between;
-    gap: 50px;
-}
-#footer-box-left {
-    width: 30%;
-}
-#nn-logotype {
-    max-width: 250px;
-}
-.some-icons-bg {
-    align-self: left;
-    border-radius: 50px;
-    border: solid 2px #00E5FF;
-    display: inline-flex;
-}
-ul {
-    margin: 0 px;
-    padding: 0px;
-}
-svg {
-    height: 1.5em;
-    width: 1.5em;
-    padding: 8px;
-    align-self: center;
-}
-#footer-box-center {
-    display: block;
-    width: 20%;
-    align-self: self-start;
-    margin-left: 25px;
-}
-#get-in-touch {
-    color: #F5F5F5;
-    margin-bottom: 1.35em;
-}
-#footer-box-right {
-    width: 50%;
-}
-#map {
-    width: 630px;
-    height: 300px;
-    border: solid 2px #00E5FF;
-    text-align: right;
-    padding: 0;
-    margin: 0;
-}
-.cred {
-    display: block;
-    width: 100%;
-    align-self: baseline;
-    height: 6%;
-}
-#copyright {
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #1A237E;
-    align-self: center;
-    padding-top: 4px;
-    }
-}
-/* Layout SKA FIXAS!!!! */
 
 /*
 .three-col-boxes {
