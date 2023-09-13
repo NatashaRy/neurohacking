@@ -182,20 +182,24 @@ a.nav-item:hover {
 /* Body */
 /* Hero */
 #home {
-    background-image: url(/assets/images/Technologic\ BG-picture.png) alt="";
+    background-image: url(/assets/images/AI-illustration-human-face.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     flex-direction: column;
 }
 .hero {
-    max-width: 80%;
-    height: 40vh;
+    max-width: 70%;
+    height: 45vh;
+    background-color: #ffffff6e;
+    box-shadow: 1px 4px 8px #00e5ff71;
+    padding: 5em 7em;
 }
 .large-heading {
     color: #00C853;
-    text-shadow: 1px 1px 5px #F5f5f;
+    text-shadow: 1px 2px #212121;
 }
 .highlight {
     background-color: #15e26bc9;
