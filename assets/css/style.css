@@ -81,7 +81,7 @@ a.primary-button:hover {
     background-color: #F5F5F5;
     /* border: solid 2px #212121; */
     color: #212121;
-    box-shadow: 4px 15px  #00E5FF;
+    box-shadow: 4px 6px  #00E5FF;
 }
 a.secondary-button:hover {
     background-color: #00E5FF
@@ -105,10 +105,11 @@ a.secondary-button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-width: 80%;
+    gap: 5%;
 }
 .flex-box-left, .flex-box-right {
-    flex: 1;
+    flex: 50%;
 }
 /* Headings */
 .large-heading {
@@ -192,7 +193,7 @@ a.nav-item:hover {
 }
 .hero {
     max-width: 70%;
-    height: 45vh;
+    height: 50vh;
     background-color: #ffffff6e;
     box-shadow: 1px 4px 8px #00e5ff71;
     padding: 5em 7em;
@@ -209,13 +210,14 @@ a.challange-cta {
     margin-top: 40px;
     padding: 10px 30px;
     font-size: 20px;
+    background-color: #00E5FF;
 }
 a.challange-cta:hover {
     margin-top: 40px;
     background-color: #1A237E;
     color: #F5F5F5;
-    border-color: #00E5FF;
-    box-shadow: 4px 7px #F5F5F5;
+    border-color: #F5F5F5;
+    box-shadow: 4px 7px #00E5FF;
     font-size: 24px;
     padding: 8px 24px;
     text-decoration: none;
@@ -224,15 +226,21 @@ a.challange-cta:hover {
 
 /* About */
 #about {
+    padding: 5em;
     justify-content: space-evenly;
 }
 .img-about {
-    max-width: 40%;
-    max-height: 2em;
+    max-width: 100%;
 }
-#about-box-left {
+.flex-box-left {
+    flex: 1.5;
+}
+.flex-box-right {
+    flex: 1;
+}
 
-}
+/* Benefits */
+
 
 /* Subscribe form */
 #heading-subscribe {
