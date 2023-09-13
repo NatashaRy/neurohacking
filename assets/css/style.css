@@ -94,16 +94,22 @@ a.secondary-button:hover {
     padding: o;
 }
 
-
-
+/* Desktop */
 /* Containers */
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/* Desktop */
+.flex-container-duo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+}
+.flex-box-left, .flex-box-right {
+    flex: 1;
+}
 /* Headings */
 .large-heading {
     font-size: 7em;
@@ -213,14 +219,15 @@ a.challange-cta:hover {
 }
 
 /* About */
+#about {
+    justify-content: space-evenly;
+}
+.img-about {
+    max-width: 40%;
+    max-height: 2em;
+}
 #about-box-left {
-    width: 55%;
-}
-#about-box-right {
-    width: 40%;
-}
-#img-about {
-    max-width: 530px;
+
 }
 
 /* Subscribe form */
@@ -348,7 +355,19 @@ font-size: 12px;
 
 /* Media query max 768px */
 @media screen and (max-width: 768px) {
-
+/* Containers */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-duo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 95%;
+}
 /* Headings */
 .large-heading {
 font-size: 3em;
