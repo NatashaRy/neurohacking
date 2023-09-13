@@ -91,16 +91,13 @@ a {
 a:hover {
     color: #00E5FF;
 }
-a.button {
+a.primary-button {
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 17%;
-    padding: 3px 18px;
+    padding: 4px 20px;
     letter-spacing: 1.5px;
-    /* color: #212121 */
-}
-a.primary-button {
     background-color: #F5F5F5;
     border: solid 2px #212121;
     color: #212121;
@@ -109,13 +106,10 @@ a.secondary-button {
     background-color: #00E5FF
 }
 a.primary-button:hover {
-    background-color: #00E5FF;
-    border: solid 2px #212121;
+    background-color: #F5F5F5;
+    /* border: solid 2px #212121; */
     color: #212121;
-    box-shadow: 2px 3px #F5F5F5;
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
+    box-shadow: 3px 5px  #00E5FF;
 }
 a.secondary-button:hover {
     background-color: #00E5FF
@@ -143,18 +137,17 @@ a.secondary-button:hover {
 }
 #nn-icon {
     margin-top: 5px;
-    max-width: 70px;
+    max-width: 68px;
     max-height: 70px;
 }
 #header-content-boxes {
     justify-content: space-between;
 }
 #header-box-left, #header-box-right {
-    width: 15%;
+    width: 10%;
 }
 #header-box-center {
-    width: 70%;
-    align-items: center;
+    width: 80%;
 }
 a.nav-item {
     padding: 15px;
