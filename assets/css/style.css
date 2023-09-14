@@ -6,7 +6,15 @@ body {
 /* Font-family from Adobe font */
 @import url("https://use.typekit.net/pvq6nma.css");
 
-/* Background colors */
+/* Generic rules */
+.jcc {
+    justify-content: center;
+}
+.aic {
+    align-items: center;
+}
+
+/* Background */
 .main-bg {
     background-color: #212121;
 }
@@ -18,7 +26,7 @@ body {
 }
 .tech-bg {
     background-color: #00E5FF;
-    background-image: url(assets/images/Technologic-BG-picture.png);
+    background-image: url(../images/technologic-bg-picture.png);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,10 +64,6 @@ body {
 }
 .text-right {
     text-align: right;
-}
-.items-center-center {
-    justify-content: center;
-    align-items: center;
 }
 
 /* Button and links */
@@ -108,14 +112,10 @@ a.secondary-button:hover {
 /* Containers */
 .flex-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 5%;
 }
 .flex-container-duo {
     display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 80%;
     gap: 5%;
 }
@@ -132,7 +132,6 @@ a.secondary-button:hover {
     display: grid;
     gap: 4%;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
     align-items: stretch;
 }
 
@@ -215,8 +214,6 @@ a.nav-item:hover {
     background-size: cover;
     height: 100vh;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .hero {
     max-width: 70%;
@@ -279,8 +276,6 @@ a.challange-cta:hover {
     box-shadow: 4px 6px 10px #00e5ff9a;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 1em;
     opacity: 100%;
 }
@@ -308,8 +303,6 @@ a.challange-cta:hover {
 #subscribe {
     background-color: #212121;
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 60vh;
 }
 #get-updated {
@@ -425,7 +418,6 @@ a#accept-terms:hover {
     display: flex;
     flex-wrap: nowrap;
     padding: 50px;
-    justify-content: center;
 }
 #footer-box-container {
     align-items: flex-start;
@@ -623,21 +615,15 @@ a#accept-terms:hover {
 .flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .flex-container-duo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 0;
 }
     .grid {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .flex-box {
     flex: 1;
@@ -693,7 +679,6 @@ font-size: 12px;
 /* Hero */
 #home {
     width: 100%;
-    justify-content: center;
     height: 100vh;
 }
 .hero-content {
@@ -743,7 +728,6 @@ font-size: 12px;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    justify-content: center;
     gap: 6%;
 }
 .flex-mobile {
@@ -753,7 +737,6 @@ font-size: 12px;
     width: 100%;
     padding-bottom: 0;
     display: flex;
-    justify-content: center;
 } 
 .some-icons {
     visibility: hidden;
@@ -811,15 +794,12 @@ font-size: 12px;
     /* Hero */
     #home {
         width: 100%;
-        justify-content: center;
         align-items: center;
     }
     .hero-content {
         display: flex;
         flex-direction: column;
         height: 100%;
-        align-items: center;
-        justify-content: center;
     }
     #introducing-neurohacking {
         padding-top: 30px;
@@ -879,7 +859,6 @@ font-size: 12px;
         width: 100%;
         height: 100vh;
         align-items: center;
-        justify-content: center;
     }
     .hero-content {
         height: 60vh;
