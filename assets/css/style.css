@@ -16,6 +16,15 @@ body {
 #nav-bar, #footer {
     background-color: #1A237E;
 }
+.tech-bg {
+    background-color: #00E5FF;
+    background-image: url(/assets/images/Technologic-BG-picture.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 /* Fonts */
 .large-heading, .regular-heading, .sub-heading, .primary-button, .secondary-button, .nav-item {
@@ -144,14 +153,9 @@ a.secondary-button:hover {
     margin: 30px 0;
 }
 .regular-text {
-    font-size: 17px;
-    line-height: 1.9em;
-    margin: 10px 0;
-    color: #F5F5F5;
-}
-.medium-text {
     font-size: 1.11em;
     line-height: 1.5em;
+    margin: 10px 0;
     color: #F5F5F5;
 }
 .small-text {
@@ -246,22 +250,14 @@ a.challange-cta:hover {
 .img-about {
     max-width: 100%;
 }
-.flex-box-left {
+.about-left {
     flex: 1.5;
 }
-.flex-box-right {
+.about-right {
     flex: 1;
 }
 
 /* Benefits */
-.benefits-bg {
-    background-color: #00E5FF;
-    background-image: url(/assets/images/Technologic-BG-picture.png);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 #benefits {
     padding: 7em 15em 12em 15em;
     display: flex;
