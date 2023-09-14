@@ -38,21 +38,26 @@ body {
 .large-heading, .regular-heading, .sub-heading, .primary-button, .secondary-button, .nav-item, #submit-btn {
     font-family: 'proxima-nova', 'Verdana', sans-serif;
     font-weight: bold;
-    color: #00C853;
 }
 .regular-text, .large-body, .small-text, .medium-text, input, a#accept-terms {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Font colors */
+/* Text colors */
 .main-text-color {
+    color:#00C853;
+}
+.light-text-color {
     color: #F5F5F5;
 }
 .alt-text-color {
     color: #00E5FF;
 }
-.dark-text {
+.dark-text-color {
     color: #212121;
+}
+.a-text {
+    color: #212121 !important;
 }
 
 /* Text and content align */
@@ -71,7 +76,7 @@ a {
     color:#F5F5F5;
 }
 a:hover {
-    color: #00E5FF;
+    color: #00C853; 
 }
 a.primary-button {
     font-size: 16px;
@@ -80,13 +85,11 @@ a.primary-button {
     border-radius: 17%;
     padding: 4px 20px;
     letter-spacing: 1.5px;
-    background-color: #F5F5F5;
     border: solid 2px #212121;
     color: #212121;
 }
 a.primary-button:hover {
     font-size: 16px;
-    background-color: #F5F5F5;
     /* border: solid 2px #212121; */
     color: #212121;
     box-shadow: 4px 6px  #00E5FF;
@@ -108,25 +111,28 @@ a.secondary-button:hover {
     margin-top: 0;
     margin-bottom: 15px;
 }
+.width-80 {
+    width: 80%;
+}
 
 /* Containers */
 .flex-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 5%;
 }
 .flex-container-duo {
     display: flex;
-    max-width: 80%;
     gap: 5%;
+    justify-content: center;
+    align-items: center;
 }
 .flex-box {
     flex: 1;
 }
 .flex-wide {
     flex: 1.5;
-}
-.flex-small {
-    flex: 1;
 }
 .grid {
     display: grid;
@@ -139,6 +145,7 @@ a.secondary-button:hover {
 .large-heading {
     font-size: 5.5em;
     line-height: 1em;
+    color:#00C853;
 }
 .regular-heading {
     font-size: 50px;
@@ -169,20 +176,21 @@ a.secondary-button:hover {
     font-size: 12px;
 }
 
+/*  */
+
 /* Header */
 #nav-bar {
     height: 60px;
+    width: 100%;
     position: fixed;
     z-index: 100;
-    width: 100%;
     box-shadow: 0 4px 8px #21212188;
 }
-.header-left, .header-right {
+.nav-bar-left, .nav-bar-right {
     margin: 0 10px;
     width: 15%;
 }
-.header-center {
-    gap: 2%;
+.nav-bar-center {
     width: 70%;
 }
 #nn-icon {
@@ -212,17 +220,16 @@ a.nav-item:hover {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
     flex-direction: column;
 }
 .hero {
     max-width: 70%;
+    height: 100vh;
 }
 .hero-content {
     padding: 5% 3% 8% 3%;
     background-color: #f5f5f5e7;
     box-shadow: 1px 4px 8px #00e5ff71;
-    width: 100%;
 }
 #introducing-neurohacking {
     padding: 5% 10%;
@@ -271,7 +278,6 @@ a.challange-cta:hover {
     align-items: center;
 }
 .grid > .benefit-card {
-    background-color: #F5F5F5;
     border: solid 2px #1A237E;
     box-shadow: 4px 6px 10px #00e5ff9a;
     display: flex;
@@ -352,12 +358,11 @@ a#accept-terms:hover {
 
 /* FAQ */
 #faq {
-    align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: auto;
     justify-content: flex-start;
     gap: 2%;
-    padding-bottom: 3%;
+    padding: 7% 0;
 }
 .flex-container-duo.neuro-faq {
     align-items: start;
@@ -398,7 +403,6 @@ a#accept-terms:hover {
 }
 .content {
     box-shadow:0 0 10px #00E5FF;
-    background-color: #F5F5F5;
     padding: 10px 25px;
 }
 #neurohacking-faq input:checked + label + .content {
@@ -437,15 +441,15 @@ a#accept-terms:hover {
     margin-top: 25px;
     margin-left: 5px;
 }
-.contact-info {
-    margin: 0 px;
-    padding: 0px;
-}
 .desktop-icon {
     height: 1.2em;
     width: 1.2em;
     padding: 6px;
     align-self: center;
+}
+.contact-info {
+    list-style-type: none;
+    padding-left: 0;
 }
 #get-in-touch {
     color: #F5F5F5;
@@ -518,7 +522,6 @@ a#accept-terms:hover {
 }
 .hero-content {
     padding: 5% 3% 8% 3%;
-    background-color: #f5f5f5e7;
     box-shadow: 1px 4px 8px #00e5ff71;
     width: 100%;
 }
@@ -568,7 +571,6 @@ a#accept-terms:hover {
 }
 .content {
     box-shadow:0 0 10px #00E5FF;
-    background-color: #F5F5F5;
     padding: 10px 25px;
 }
 #neurohacking-faq input:checked + label + .content {
@@ -820,122 +822,3 @@ font-size: 12px;
         height: 45vh;
     }
 } 
-/* Media query max 480px */
-@media screen and (max-width: 480px) {
-    /* Headings */
-    .large-heading {
-    font-size: 2.5em;
-    line-height: 1em;
-    }
-    .regular-heading {
-    font-size: 2.2em;
-    line-height: 1.2em;
-    }
-    .sub-heading {
-    font-size: 1.7em;
-    line-height: 1.3em;
-    }  
-    /* Body text */
-    .large-body {
-    font-size: 1.2em;
-    font-weight: 500;
-    }
-    .small-text {
-    font-size: 12px;
-    }
-
-    /* Header */
-    .nav-bar-center {
-        display: none;
-        }
-    #nav-bar {
-        height: 60px;
-        position: fixed;
-        z-index: 100;
-        width: 100%;
-    }
-    /* Hero */
-    #home {
-        width: 100%;
-        height: 100vh;
-        align-items: center;
-    }
-    .hero-content {
-        height: 60vh;
-    }
-    #introducing-neurohacking {
-        padding-top: 30px;
-    }
-    /* Benefits */
-    #benefits {
-        padding-bottom: 20px;
-    }
-    .benefit-card {
-        text-align: center;
-        width: 80%;
-        margin: 5%;
-    }
-    /* How it works */
-    .how-to-heading {
-        margin: 30px;
-    }
-        /* FAQ */
-    #faq {
-        height: 130vh;
-        padding-top: 50px;
-    }
-    #neurohacking-faq label {
-        width: auto;
-    }
-    .content {
-        box-shadow:0 0 10px #00E5FF;
-        background-color: #F5F5F5;
-        padding: 10px 25px;
-    }
-    #neurohacking-faq input:checked + label + .content {
-        width: auto;
-    }
-    .q-heading {
-        font-weight: bold;
-    }
-    /* Subscribe */
-    .subscribe-form {
-        margin: 25px;
-        padding: 35px;
-    }
-    /* footer */
-    #contact {
-        height: 80vh;
-    }
-    .footer-left {
-        margin-bottom: -35%;
-    }
-    .footer-right {
-        margin-top: -10%;
-    }
-    #get-in-touch {
-        margin-bottom: 10px;
-    }
-    .contact-info {
-        padding: 0;
-    }
-    .flex-mobile {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10%;
-    }
-    .some-icons-bg {
-        margin: 0 12px 10px;
-        align-self: center;
-    }
-    .responsive-icon {
-        height: 1.8em;
-        width: 1.8em;
-        padding: 15px;
-        align-self: center;
-    }
-}
-
-    /* Media query max 320px */
-@media screen and (max-width: 320px) {
-}
