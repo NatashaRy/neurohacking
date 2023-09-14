@@ -409,26 +409,12 @@ a#accept-terms:hover {
 #a-text {
     color: #212121;
 }
-@-webkit-keyframes fadeIn {
-    0% {
-        display: none;
-        opacity: 0;
-    }
-    1% {
-        display: block;
-        opacity: 0;
-    }
-    100% {
-        display: block;
-        opacity: 1;
-    }
-}
 
 /* Footer */
 #contact {
     display: flex;
     flex-wrap: nowrap;
-    padding: 50px
+    padding: 50px;
     gap: 3em;
     align-items: center;
     justify-content: center;
