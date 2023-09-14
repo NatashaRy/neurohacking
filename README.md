@@ -1,6 +1,8 @@
 # **Site Title**
 ## **Site Overview**
 This is where you give a brief overview of the page so, like an intro to the business or project followed by a brief talk about who the page is targeted at for example for a retro gaming arcade.
+
+Neuro nova is a website which purpose it the educate and motivate [AUDIENCE] 
 ​
 Retro arcade is a local business in the Sheffield area looking to offer young people a place to come and hangout and play old school games in a relaxed and friendly environment. Due to lower turnout than expected they have asked for a page to be built to spread the word in the community and wider areas. Ideally the business is intended to target younger gamers primarily but also be appealing to older people interested in a gaming experience 
 ​
@@ -34,9 +36,9 @@ Retro arcade is a local business in the Sheffield area looking to offer young pe
 ​
 This section is a breakdown of the target audience 3 or 4 bullet points so using our example
 ​
-* Users interested in retro gaming 
-* Users interested in a safe environment to gather and have fun
-* Users interested in activities in the Sheffield area
+* Users interested 
+* Users interested 
+* Users interested 
 ​
 ### **User Stories:**
 ​
