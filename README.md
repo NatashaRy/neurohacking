@@ -150,6 +150,7 @@ It's always nice to mention those that helped you get there, if people gave you 
 ​
 If you took any code from online source and by this i mean copy paste with zero changes mention it here!
 - Icons in footer was taken from [Fontawesome](https://fontawesome.com/)
+- Used this guide as inspiration for FAQ: [Stechies.com](https://www.stechies.com/create-accordion-html-without-javascript/)
   
 ### **Media:**
 ​- Hero background image: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
