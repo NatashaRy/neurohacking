@@ -1,10 +1,6 @@
 # **Site Title**
 ## **Site Overview**
-This is where you give a brief overview of the page so, like an intro to the business or project followed by a brief talk about who the page is targeted at for example for a retro gaming arcade.
-
-Neuro nova is a website which purpose it the educate and motivate [AUDIENCE] 
-​
-Retro arcade is a local business in the Sheffield area looking to offer young people a place to come and hangout and play old school games in a relaxed and friendly environment. Due to lower turnout than expected they have asked for a page to be built to spread the word in the community and wider areas. Ideally the business is intended to target younger gamers primarily but also be appealing to older people interested in a gaming experience 
+NeuroNova is an initiative in the realm of cognitive enhancement. We want to provide individuals with knowleadge, tools and techniques to unlock their brain's full potential. Our site is intended to target individuals who are keen on personal growth and cognitive advancement, but also be appealing to professionals aswell as students, and anyone curious about the vast capabilities of the human mind. 
 ​
 ![Am I responsive screenshot](imagelocation so maybe docs/image.jpg)
 ​
@@ -34,20 +30,17 @@ Retro arcade is a local business in the Sheffield area looking to offer young pe
 ## **Planning stage**
 ### **Target Audiences:**
 ​
-This section is a breakdown of the target audience 3 or 4 bullet points so using our example
-​
-* Users interested 
-* Users interested 
-* Users interested 
+* Users interested in understand and learn more about neurohacking and its benefits.
+* Users interested in enhancing their cognitive abilities.
+* Users interested in personal growth, self-awareness, and achieving a deeper understanding of their mind.
+* Users interested leveraging cutting-edge research and techniques for mental well-being and optimization.
 ​
 ### **User Stories:**
 ​
-User stories are more what the user wants from the site in terms of features and presentation
-​
-* As a user, I want to see the subject matter of the page.
-* As a user, I want to navigate the page to find what I require quickly and easily.
-* As a user, I want to learn more about what the business offers
-* As a user, I want to reach out and contact the business
+* As a user, I want to see what the sites topic is.
+* As a user, I want to be able to navigate on the site.
+* As a user, I want to learn more about and understand what what neurohacking is.
+* As a user, I want to be able to contact the site.
 ​
 ### **Site Aims:**
 ​
