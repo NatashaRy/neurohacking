@@ -738,6 +738,7 @@ font-size: 12px;
     margin: 0;
     gap: 2%;
     height: 40vh;
+}
 #footer-box-container {
     flex-wrap: wrap;
     flex-direction: row;
@@ -816,7 +817,7 @@ font-size: 12px;
     .hero-content {
         display: flex;
         flex-direction: column;
-        height: 50vh;
+        height: 100%;
         align-items: center;
         justify-content: center;
     }
@@ -847,10 +848,10 @@ font-size: 12px;
     font-size: 2.2em;
     line-height: 1.2em;
     }
-.sub-heading {
+    .sub-heading {
     font-size: 1.7em;
     line-height: 1.3em;
-}  
+    }  
     /* Body text */
     .large-body {
     font-size: 1.2em;
@@ -859,7 +860,7 @@ font-size: 12px;
     .small-text {
     font-size: 12px;
     }
-    
+
     /* Header */
     .nav-bar-center {
         display: none;
@@ -892,35 +893,34 @@ font-size: 12px;
         width: 80%;
         margin: 5%;
     }
-
-/* How it works */
-.how-to-heading {
-    margin: 30px;
-}
-    /* FAQ */
-#faq {
-    height: 130vh;
-    padding-top: 50px;
-}
-#neurohacking-faq label {
-    width: 350px;
-}
-.content {
-    box-shadow:0 0 10px #00E5FF;
-    background-color: #F5F5F5;
-    padding: 10px 25px;
-}
-#neurohacking-faq input:checked + label + .content {
-    width: 350px;
-}
-.q-heading {
-    font-weight: bold;
-}
-/* Subscribe */
-.subscribe-form {
-    margin: 25px;
-    padding: 35px;
-}
+    /* How it works */
+    .how-to-heading {
+        margin: 30px;
+    }
+        /* FAQ */
+    #faq {
+        height: 130vh;
+        padding-top: 50px;
+    }
+    #neurohacking-faq label {
+        width: auto;
+    }
+    .content {
+        box-shadow:0 0 10px #00E5FF;
+        background-color: #F5F5F5;
+        padding: 10px 25px;
+    }
+    #neurohacking-faq input:checked + label + .content {
+        width: auto;
+    }
+    .q-heading {
+        font-weight: bold;
+    }
+    /* Subscribe */
+    .subscribe-form {
+        margin: 25px;
+        padding: 35px;
+    }
     /* footer */
     #contact {
         height: 80vh;
@@ -952,4 +952,8 @@ font-size: 12px;
         padding: 15px;
         align-self: center;
     }
-}           
+}
+
+    /* Media query max 320px */
+@media screen and (max-width: 320px) {
+}
