@@ -304,6 +304,74 @@ a.challange-cta:hover {
 .get-started {
     margin: 0;
     text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* FAQ */
+#faq {
+    padding: 7em 4em 12em 4em;
+    align-items: center;
+    flex-direction: column;
+}
+.sub-faq {
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #000000bb;
+    padding: 0 15px;
+    font-weight: 500;
+}
+.hidecontent {
+    display: none;
+}
+.q-heading {
+    font-weight: bold;
+}
+.neuro-faq {
+    width: 50%;
+}
+#neurohacking-faq label {
+    box-shadow:0 0 10px #00E5FF;
+    display: block;    
+    padding: 10px 22px;
+    margin: 40px 0 1px;
+    cursor: pointer;
+    background-color: #00E5FF;
+    color: #212121;
+    transition: ease .5s;
+}
+#neurohacking-faq label:hover {
+    box-shadow:0 0 10px #F5F5F5;
+}
+.content {
+    box-shadow:0 0 10px #00E5FF;
+    background-color: #F5F5F5;
+    padding: 10px 25px;
+    border: 1px solid #d4d4d4;
+    margin: -1 0 0 0;
+}
+#neurohacking-faq input:checked + label + .content {
+    display: block;
+    webkit-animation: fadeIn 0.5s ease-out;
+    -moz-animation: fadeIn 0.5s ease-out;
+    -o-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+}
+#a-text {
+    color: #212121;
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }
 
 /* Footer */
