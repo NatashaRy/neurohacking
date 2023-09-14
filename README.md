@@ -147,10 +147,10 @@ It's always nice to mention those that helped you get there, if people gave you 
 ### **Content:**
 ​
 If you took any code from online source and by this i mean copy paste with zero changes mention it here!
-- Icons in footer was taken from https://fontawesome.com/
-- 
+- Icons in footer was taken from [Fontawesome](https://fontawesome.com/)
   
 ### **Media:**
-​- Hero image: 
-- Image on about-section: Stockvault https://www.stockvault.net/photo/264052/technology-disruption-the-rise-of-artificial-intelligence
-- Background image on form: Subscription at Envato Elements https://elements.envato.com/transforming-the-darkness-illustration-of-beams-of-XAT269T
+​- Hero background image: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
+- Image on about-section: [Stockvault](https://www.stockvault.net/photo/264052/technology-disruption-the-rise-of-artificial-intelligence)
+- Background image on benefits- and FAQ-section: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
+- Video on How it works-section is created with [Chat GPT4 + Visla-plugin](https://chat.openai.com/).
