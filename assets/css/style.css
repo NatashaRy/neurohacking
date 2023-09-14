@@ -813,9 +813,6 @@ font-size: 12px;
         justify-content: center;
         align-items: center;
     }
-    .hero {
-        height: 50vh;
-    }
     .hero-content {
         display: flex;
         flex-direction: column;
