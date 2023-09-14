@@ -828,6 +828,9 @@ font-size: 12px;
     .q-heading {
         font-weight: bold;
     }
+    .neurohacking-faq {
+        width: auto;
+    }
     /* Subscribe */
     #name-field, #email-field {
         font-size: 18px;
