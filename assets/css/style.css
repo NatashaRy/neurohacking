@@ -294,6 +294,17 @@ a.challange-cta:hover {
     padding: 20px 0;
 }
 
+/* How it works */
+#how-it-works {
+    padding: 1em;
+    justify-content: space-evenly;
+}
+.get-started {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 /* Subscribe form */
 #subscribe {
     display: flex;
@@ -346,25 +357,20 @@ a#accept-terms:hover {
     box-shadow: 1px 2px 5px #F5F5F5;
 }
 
-/* How it works */
-#how-it-works {
-    padding: 1em;
-    justify-content: space-evenly;
-}
-.get-started {
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
 /* FAQ */
 #faq {
-    padding: 7em 0 7em;
     align-items: center;
     flex-direction: column;
+    height: 85vh;
+    justify-content: flex-start;
+    gap: 2%;
+    padding: 30px;
 }
 .flex-container-duo.neoro-faq {
     align-items: start;
+}
+.faq-heading {
+    margin-top: 5%;
 }
 .sub-faq {
     margin: 0;
@@ -386,8 +392,8 @@ a#accept-terms:hover {
 #neurohacking-faq label {
     box-shadow:0 0 10px #00E5FF;
     display: block;    
-    padding: 10px 22px;
-    margin: 40px 0 1px;
+    padding: 10px 25px;
+    margin: 40px 0 0px;
     cursor: pointer;
     background-color: #00E5FF;
     color: #212121;
@@ -400,8 +406,6 @@ a#accept-terms:hover {
     box-shadow:0 0 10px #00E5FF;
     background-color: #F5F5F5;
     padding: 10px 25px;
-    border: 1px solid #d4d4d4;
-    margin: -1 0 0 0;
 }
 #neurohacking-faq input:checked + label + .content {
     display: block;
