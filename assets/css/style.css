@@ -99,6 +99,11 @@ a.secondary-button:hover {
     margin: 0;
     padding: o;
 }
+.mid-space {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
 
 /* Containers */
 .flex-container {
@@ -117,8 +122,11 @@ a.secondary-button:hover {
 .flex-box {
     flex: 1;
 }
-.flex-box-left, .flex-box-right {
-    flex: 50%;
+.flex-wide {
+    flex: 1.5;
+}
+.flex-small {
+    flex: 1;
 }
 .grid {
     display: grid;
@@ -250,12 +258,7 @@ a.challange-cta:hover {
 .img-about {
     max-width: 100%;
 }
-.about-left {
-    flex: 1.5;
-}
-.about-right {
-    flex: 1;
-}
+
 
 /* Benefits */
 #benefits {
@@ -267,7 +270,7 @@ a.challange-cta:hover {
 .grid > .benefit-card {
     background-color: #F5F5F5;
     border: solid 2px #1A237E;
-    box-shadow: 1px 5px 7px #00e5ff9a;
+    box-shadow: 4px 6px 10px #00e5ff9a;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -278,6 +281,10 @@ a.challange-cta:hover {
 .benefit-card {
     padding: 10% 15%;
 }
+.benefit-heading {
+    text-shadow: 0 4px 15px #212121;
+    padding: 20px 0;
+}
 
 /* Subscribe form */
 #heading-subscribe {
@@ -287,6 +294,16 @@ a.challange-cta:hover {
     background-size: cover;
     background-color: #00C853;
     color: #F5F5F5;
+}
+
+/* How it works */
+#how-it-works {
+    padding: 1em;
+    justify-content: space-evenly;
+}
+.get-started {
+    margin: 0;
+    text-transform: uppercase;
 }
 
 /* Footer */
