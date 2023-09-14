@@ -94,12 +94,6 @@ a.primary-button:hover {
     color: #212121;
     box-shadow: 4px 6px  #00E5FF;
 }
-a.secondary-button {
-    background-color: #00E5FF
-}
-a.secondary-button:hover {
-    background-color: #00E5FF
-}
 
 /* Layout and white space */
 .no-space {
@@ -113,6 +107,9 @@ a.secondary-button:hover {
 }
 .width-80 {
     width: 80%;
+}
+#nav-bar, #home, #about, #benefits, #how-it-works, #faq, #subscribe, #contact {
+    width: auto;
 }
 
 /* Containers */
@@ -176,8 +173,6 @@ a.secondary-button:hover {
     font-size: 12px;
 }
 
-/*  */
-
 /* Header */
 #nav-bar {
     height: 60px;
@@ -185,13 +180,6 @@ a.secondary-button:hover {
     position: fixed;
     z-index: 100;
     box-shadow: 0 4px 8px #21212188;
-}
-.nav-bar-left, .nav-bar-right {
-    margin: 0 10px;
-    width: 15%;
-}
-.nav-bar-center {
-    width: 70%;
 }
 #nn-icon {
     margin-top: 5px;
@@ -272,10 +260,9 @@ a.challange-cta:hover {
 
 /* Benefits */
 #benefits {
-    padding: 7em 15em 12em 15em;
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .grid > .benefit-card {
     border: solid 2px #1A237E;
@@ -286,25 +273,26 @@ a.challange-cta:hover {
     opacity: 100%;
 }
 .benefit-card {
-    padding: 10% 15%;
+    padding: 10% 12%;
 }
 .benefit-heading {
     text-shadow: 0 4px 15px #212121;
     padding: 20px 0;
 }
-
+.ben-bullets {
+    margin-left: -15%;
+}
 /* How it works */
 #how-it-works {
     padding: 1em;
     justify-content: space-evenly;
-    height: 50vh;
+    height: auto;
 }
 .get-started {
     margin: 0;
     text-transform: uppercase;
     font-weight: 500;
 }
-
 /* Subscribe form */
 #subscribe {
     background-color: #212121;
@@ -396,7 +384,7 @@ a#accept-terms:hover {
     background-color: #00E5FF;
     color: #212121;
     transition: ease .5s;
-    width: 600px;
+    width: 450px;
 }
 #neurohacking-faq label:hover {
     box-shadow:0 0 10px #F5F5F5;
@@ -407,7 +395,7 @@ a#accept-terms:hover {
 }
 #neurohacking-faq input:checked + label + .content {
     display: block;
-    width: 600px;
+    width: 450px;
     webkit-animation: fadeIn 0.5s ease-out;
     -moz-animation: fadeIn 0.5s ease-out;
     -o-animation: fadeIn 0.5s ease-out;
@@ -416,16 +404,12 @@ a#accept-terms:hover {
 #a-text {
     color: #212121;
 }
-
 /* Footer */
 #contact {
     display: flex;
     flex-wrap: nowrap;
     padding: 50px;
-}
-#footer-box-container {
-    align-items: flex-start;
-    width: 80%;
+    align-items: start;
 }
 #nn-logotype {
     max-width: 250px;
@@ -433,392 +417,146 @@ a#accept-terms:hover {
 .flex-mobile {
     display: none;
 }
-.some-icons-bg {
+a.some-icons-bg {
     align-self: left;
     border-radius: 50px;
     border: solid 2px #00E5FF;
     display: inline-flex;
     margin-top: 25px;
-    margin-left: 5px;
+    margin-right: 20px;
+}
+a.some-icons-bg:hover {
+    background-color: #00C853;
+    border: solid 2px #F5F5F5;
 }
 .desktop-icon {
-    height: 1.2em;
-    width: 1.2em;
-    padding: 6px;
+    height: 1.5em;
+    width: 1.5em;
+    padding: 10px;
     align-self: center;
 }
 .contact-info {
     list-style-type: none;
     padding-left: 0;
 }
+.footer-container {
+    align-items: flex-start;
+}
 #get-in-touch {
     color: #F5F5F5;
     margin-top: 0.4em;
-    margin-bottom: 1.8em;
+    margin-bottom: 1.5em;
 }
 .cred {
     background-color:#00E5FF;
     padding: 5px;
-    text-align: center;
 }
 .copyright {
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #1A237E;
-    align-self: center;
     padding-top: 4px;
-    }
+}
 
+/* Media query max 1400px */
+@media screen and (max-width: 1400px) {
+    .width-90 {
+        width: 90%;
+    }
+}
 /* Media query max 1360px */
 @media screen and (max-width: 1360px) {
-    
-/* Headings */
-.large-heading {
-    color: #00C853;
-    text-shadow: 1px 2px #212121;
-    padding-top: 20px;
-    font-size: 4.8em;
-}
-.regular-heading {
-    font-size: 50px;
-    line-height: 1.2em;
-    text-align: center;
+    .width-90 {
+        width: 90%;
     }
-    .sub-heading {
-    font-size: 1.7em;
-    text-align: center;
-    margin-bottom: 3%;
+    .nav-item {
+        visibility: hidden;
     }
-    
-    /* Body text */
-    .large-body {
-    font-size: 1.2em;
-    font-weight: 500;
-    text-align: center;
-    }
-    .regular-text {
-        font-size: 1.5em;
-        line-height: 1.3em;
-        color: #F5F5F5;
-        }
-    .small-text {
-    font-size: 12px;
-    }
-
-#nav-bar, #home, #about, #benefits, #how-it-works, #faq, #subscribe, #footer {
-    overflow: hidden;
-}    
-/* Header */
-#nav-bar {
-    height: 60px;
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-}
-/* Hero */
-#home {
-    height: 75vh;
-}
-.hero-content {
-    padding: 5% 3% 8% 3%;
-    box-shadow: 1px 4px 8px #00e5ff71;
-    width: 100%;
-}
-#introducing-neurohacking {
-    padding: 4% 6%;
-    margin: 0;
-}
-
-/* About */
-#about {
-    padding: 6em 0em;
-    max-width: 100%;
-}
-
-/* Benefits */
-#benefits {
-    padding: 5em 5em 15em 5em;
-    max-width: 100%;
-}
-.benefit-card {
-    padding: 10% 5%;
-}
-/* How it works */
-#how-it-works {
-    height: 100vh;
-}
-#how-it-works-inline {
-    display: flex;
-    flex-direction: column;
-}
-#get-started-box {
-    margin-top: 5%;
-}
-.how-to-heading, .get-started  {
-    text-align: center;
-}
-#video {
-    padding-top: 52%;
-}
-/* FAQ */
-#faq {
-    height: 78vh;
-    padding-top: 50px;
-}
-#neurohacking-faq label {
-    width: 450px;
-}
-.content {
-    box-shadow:0 0 10px #00E5FF;
-    padding: 10px 25px;
-}
-#neurohacking-faq input:checked + label + .content {
-    width: 450px;
-}
-.q-heading {
-    font-weight: bold;
-}
-/* Footer */
-#contact {
-    max-width: 100%;
-}
-#footer-box-container {
-    width: 90%;
-    gap: 12%;
-}
-#get-in-touch {
-    text-align: left;
-    margin-bottom: 1.2em
-}
-.footer-left {
-    flex: 2;
-}
-.footer-right {
-    flex: 1;
-}
-.footer-text {
-    font-size: 1.1em;
-}
-.some-icons-bg {
-    margin: 40px 15px 30px;
-    align-self: left;
-}
-.desktop-icon {
-    height: 1.3em;
-    width: 1.3em;
-    padding: 8px;
-    align-self: center;
-}
 }
 /* Media query max 1080px */
 @media screen and (max-width: 1080px) {
-/* Containers */
-.flex-container {
-    display: flex;
-    flex-direction: column;
+        .flex-container, .flex-container-duo {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .neuro-faq {
+        flex-direction: column;
+        width: auto;
+        }
+        .grid {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+        .flex-box, .flex-wide {
+            flex: 1;
+        }
+        .benefit-card {
+            margin-bottom: 5%;
+            padding: 15%;
+        }
+        .img-about {
+            margin-top: 5%;
+        }
+        #how-it-works {
+            padding: 15% 05%;
+        }
+        .heading-center {
+            text-align: center;
+        }
+        #video {
+            margin-bottom: 7%;
+        }
+        .regular-text {
+            font-size: 1.2em;
+        }
+        #get-in-touch {
+            margin-bottom: 10px;
+        }
+        .regular-heading {
+            font-size: 3em;
+        }
+        .large-heading {
+            font-size: 3.5em;
+        }
+        #benefits {
+            padding: 5%;
+        }
 }
-.flex-container-duo {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-}
-    .grid {
-    display: flex;
-    flex-direction: column;
-}
-.flex-box {
-    flex: 1;
-}
-
-/* Headings */
-.large-heading {
-font-size: 3.8em;
-line-height: 1em;
-}
-.regular-heading {
-font-size: 50px;
-line-height: 1.2em;
-text-align: center;
-}
-.sub-heading {
-font-size: 35px;
-text-align: center;
-}
-
-/* Body text */
-.large-body {
-font-size: 1.3em;
-font-weight: 500;
-text-align: center;
-}
-.regular-text {
-font-size: 22px;
-line-height: 1.5em;
-color: #F5F5F5;
-}
-.small-text {
-font-size: 12px;
-}
-
-/* Header */
-#nav-bar {
-    height: 60px;
-    position: fixed;
-    z-index: 100;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.nav-bar-center {
-    display: none;
-    }
-#nn-icon {
-    margin-left: 20px;
-}
-#challange {
-    display: none;
-}
-/* Hero */
-#home {
-    width: 100%;
-    height: 100vh;
-}
-.hero-content {
-    width: 100%;
-}
-
-/* About */
-.img-about {
-    margin-top: 2em;
-    width: 100%;
-}
-
-/* Benefits */
-#benefits {
-    overflow: hidden;
-    padding: 6%;
-    padding-top: 10%;
-}
-.benefit-card {
-    text-align: center;
-    width: 65%;
-    margin: 5%;
-}
-.benefit-heading {
-    text-align: center;
-}
-
-/* How it works */
-#how-it-works {
-    height: 80vh;
-}
-/* Faq */
-#faq {
-    height: 130vh;
-}
-.q-heading {
-    font-weight: bold;
-}
-
-/* Footer */
-#contact {
-    margin: 0;
-    gap: 2%;
-    height: 40vh;
-}
-#footer-box-container {
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    gap: 6%;
-}
-.flex-mobile {
-    display: flex;
-}
-.some-icons-center {
-    width: 100%;
-    padding-bottom: 0;
-    display: flex;
-} 
-.some-icons {
-    visibility: hidden;
-}
-.footer-left {
-    margin-bottom: -20%;
-    flex: 1.5;
-}
-.footer-right {
-    flex: 1;
-}
-.some-icons-bg {
-    margin: 0 15px 30px;
-    align-self: center;
-}
-.responsive-icon {
-    height: 1.7em;
-    width: 1.7em;
-    padding: 12px;
-    align-self: center;
-}
-}
-
 /* Media query max 720px */
 @media screen and (max-width: 720px) {
-    /* Headings */
-    .large-heading {
-    font-size: 3em;
-    line-height: 1em;
-    }
     .regular-heading {
-    font-size: 50px;
-    line-height: 1.2em;
+        text-align: center;
     }
-    
-    /* Body text */
-    .large-body {
-    font-size: 1.2em;
-    font-weight: 500;
-    }
-    .small-text {
-    font-size: 12px;
-    }
-    
-    /* Header */
-    .nav-bar-center {
-        display: none;
-        }
-    #nav-bar {
-        height: 60px;
-        position: fixed;
-        z-index: 100;
-        width: 100%;
-    }
-    /* Hero */
-    #home {
-        width: 100%;
-        align-items: center;
-    }
-    .hero-content {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-    #introducing-neurohacking {
-        padding-top: 30px;
-    }
-    /* faq */
-    .q-heading {
-        font-weight: bold;
-    }
-    .neurohacking-faq {
+    .subscribe-form {
         width: auto;
     }
-    /* Subscribe */
-    #name-field, #email-field {
-        font-size: 18px;
+    #faq {
+        overflow: hidden;
     }
-    /* footer */
-    #contact {
-        height: 45vh;
+    .neurohacking-faq .content {
+        width: auto;
     }
-} 
+    .q-heading {
+        font-size: 1.2em;
+    }
+    .flex-container.footer-container.width-80, .flex-box-wide.text-left.regular-text {
+        text-align: center;
+    }
+    .flex.wide, .flex-box {
+        flex: 1;
+    }
+    }
+    /* Media query max 480px */
+        @media screen and (max-width: 480px) {
+        .some-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .some-icons-bg {
+            margin: 0 5%;
+        }
+    }
