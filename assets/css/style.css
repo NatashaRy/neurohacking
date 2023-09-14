@@ -309,9 +309,12 @@ a.challange-cta:hover {
 
 /* FAQ */
 #faq {
-    padding: 7em 4em 12em 4em;
+    padding: 7em 0 7em;
     align-items: center;
     flex-direction: column;
+}
+.flex-container-duo.neoro-faq {
+    align-items: start;
 }
 .sub-faq {
     margin: 0;
@@ -325,9 +328,10 @@ a.challange-cta:hover {
 }
 .q-heading {
     font-weight: bold;
+    line-height: 1.2em;
 }
-.neuro-faq {
-    width: 50%;
+#neurohacking-faq {
+    align-content: top;
 }
 #neurohacking-faq label {
     box-shadow:0 0 10px #00E5FF;
