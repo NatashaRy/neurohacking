@@ -138,11 +138,17 @@
         </section>
 
         <!-- Subscribe -->
-        <section class="items-center-center flex-container no-space" id="subscribe">
-            <div class="flex-box">
-                <h2 class="regular-heading">SUBSCRIBEEE!!</h2>
-                <p class="regular-text"></p>
-            </div>
+        <section class="dna-bg no-space" id="subscribe">
+            <form class="subscribe-form text-left regular-text main-text-color">
+                <h2 class="sub-heading text-center main-text-color" id="get-updated">Get updated!</h2>
+                <label for="name">Name*</label>
+                <input name="name" id="name-field" type="text" placeholder="You name" required>
+                <label for="email">E-mail*</label>
+                <input type="email" name="email" id="email-field" placeholder="Your email" required>
+                <input type="checkbox" id="accept-box" name="accept_terms" value="yes" required>
+                <label for="accept_terms"><a id="accept-terms" class="small-text" href="https://neurohacking.com/privacy" target="_blank">Accept terms</a></label><br>
+                <input type="submit" id="submit-btn" value="Subscribe">
+            </form>
         </section>
 
         <!-- How it works -->
