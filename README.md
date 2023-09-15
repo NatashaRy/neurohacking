@@ -124,6 +124,19 @@ Ways we have used Dev Tools:
 1. Narrowed the screen when opening Dev Tools.
 2. Checked different devices and dimensions.
 
+**Different devices**
+We have also tested the website manually on different devices to check the responsivness. 
+The devices we have used are:
+1. Monitors
+    * 2560 1440 px
+    * 2560 x 1080 px
+2. Mobile phones
+    * Samsung Galaxy S22 Ultra
+    * Samsung Galaxy A54
+3. Tablet 
+    * Ipad Air
+
+
 ## **Functionality:**
 
 ## **Validators:**
