@@ -531,7 +531,17 @@ a.some-icons-bg:hover {
     #mobile-nav-box {
         visibility: hidden;
     }
+    button.mobile-btn {
+        visibility: hidden;
+    }
 }
+/* Media query min 1361px */
+@media screen and (min-width: 1360px) {
+    #mobile-nav-box {
+        visibility: hidden;
+    }
+}
+
 /* Media query max 1360px */
 @media screen and (max-width: 1360px) {
     .width-90 {
