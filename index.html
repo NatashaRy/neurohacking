@@ -31,8 +31,8 @@
                 </nav>
             </div>
         </header>
-        <section class="navigation-mobile">
-            <!-- Top Navigation Menu -->
+        <!-- Top Navigation Menu -->
+        <section id="navigation-mobile">
             <div class="mobile-nav">
                 <a href="#home" class="active">
                     <picture>
@@ -74,7 +74,7 @@
                     Dive deep into the world of neurohacking,where science meets self-improvement.
                     Discover techniques to <strong class="highlight">rewire</strong>, <strong class="highlight">refine</strong>, and <strong class="highlight">rejuvenate</strong> your mind.
                     </p><br><br>
-                    <a type="button" class="primary-button light-bg mid-space challange-cta" href="#subscribe">
+                    <a href="#subscribe" class="primary-button light-bg mid-space challange-cta">
                         <span>Keep updated!</span>
                     </a>
                 </div>
@@ -251,14 +251,14 @@
 
         <!-- Subscribe -->
         <section class="flex-container   " id="subscribe">
-            <form action="#" class="subscribe-form no-space text-left regular-text">
+            <form action="#" method="POST" class="subscribe-form no-space text-left regular-text">
                 <h2 class="sub-heading no-space text-center light-text-color" id="get-updated">Get updated!</h2>
                 <label for="name-field">Name*</label>
                 <input name="name" id="name-field" type="text" placeholder="You name" required>
                 <label for="email-field">E-mail*</label>
                 <input type="email" name="email" id="email-field" placeholder="Your email" required>
                 <input type="checkbox" id="accept-terms" name="accept_terms" value="yes" required>
-                <label for="accept-terms"><input type="checkbox" id="accept-terms" class="small-text mid-space"><a href="#">Accept terms</a><br>
+                <label for="accept-terms"><input type="checkbox" id="terms" class="small-text mid-space"><a href="#">Accept terms</a></label><br>
                 <input type="submit" value="Subscribe">
             </form>
         </section>

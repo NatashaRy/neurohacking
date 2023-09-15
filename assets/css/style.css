@@ -376,11 +376,13 @@ input {
     padding: 8px;
     margin-top: 3px;
 }
-a#accept-terms {
+a#terms {
     text-decoration: none;
+    text-transform: uppercase;
 }
-a#accept-terms:hover {
+a#terms:hover {
     text-decoration: none;
+    text-transform: uppercase;
     color: #00E5FF;
 }
 #submit-btn {
@@ -517,7 +519,7 @@ a.some-icons-bg:hover {
 
 /* Media query min 1360px */
 @media screen and (min-width: 1360px) {
-    .navigation-mobile {
+    #navigation-mobile {
         display: none;
     }
 }
@@ -526,7 +528,7 @@ a.some-icons-bg:hover {
     .width-90 {
         width: 90%;
     }
-    .navigation-mobile {
+    #navigation-mobile {
         display: block;
     }
     #nav-bar {
