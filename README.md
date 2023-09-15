@@ -78,10 +78,11 @@ We decided to change the use for the colors and focus on a darker background and
 ## **Current Features Common to all pages**
 ​
 #### *Navigation Bar:*
-
 * Provide links to all sections: The navigation bar provides direct links to each section of the page, ensuring users can quickly jump to the content they're interested in.
 * Clear Presentation: Each navigation option is presented in a clear, readable font and style, ensuring users can easily identify where they want to go.
 * Mobile Optimization: For users on smaller screens, a hamburger menu is provided. This ensures that mobile users have an optimal, clutter-free experience.
+​​![Navigation desktop](docs\images\nav-2.png)
+​​![Navigation mobile](docs\images\nav-2.png)
 
 #### *Hero section:*
 The hero section is the first thing users see when they visit the site. It sets the tone and introduces them to the concept of neurohacking.
@@ -89,11 +90,7 @@ The hero section is the first thing users see when they visit the site. It sets 
 * Engaging Visuals: The hero section features captivating visuals that draw users in and pique their interest in neurohacking.
 * Clear Call to Action: A clear and compelling call to action encourages users to learn more or take the next step in their neurohacking journey.
 
-#### *About section:*
-This section delves into the concept of neurohacking, providing users with a comprehensive overview.
-
-* Informative Content: Users are presented with well-researched and easy-to-understand information about neurohacking.
-* Engaging Layout: Short and concise content is laid out in a way that's engaging and easy to digest.
+​​![Hero](docs\images\hero.png)
 
 #### *About section:*
 This section delves into the concept of neurohacking, providing users with a comprehensive overview.
@@ -102,20 +99,16 @@ This section delves into the concept of neurohacking, providing users with a com
 * Engaging Layout: Short and concise content is laid out in a way that's engaging and easy to digest.
 
 
-
-
-​
-#### *features
-​
-* This is where you will place all of your features think about each section of the page include a screenshot and a few bullet points on how it's presented and why
 ​
 ## **Future-Enhancements**
 ​
-A webpage is a living beast it's going to evolve past the initial stages of release generally, it's always good to discuss where you this the page may go in the future
-​
-* At the time of making this page i didn't have the understanding to actual send e-mails from the contact form so intergration with email.js to send e-mails would improve the users experience
-​
-* Due to the subject matter, we have discussed the idea of including a small JS game to engage the user
+A website is always evolving, and there are plans to further enhance the neurohacking site to provide an even better user experience.
+
+* Email Integration: At the time of creating this page, there was no capability to send emails from the contact form. In the future, integrating with services like email.js will allow users to send emails directly from the site, enhancing the user experience.
+
+* Interactive JS Game: Given the intriguing subject matter of neurohacking, there's a plan to include a small JavaScript-based game. This will engage users further, providing both entertainment and education about neurohacking concepts.
+
+
 ​
 ## **Testing Phase**
 ​
@@ -229,7 +222,11 @@ The technologies used in this project are:
 ## **Credits**
 ### **Honorable mentions**
 ​
-It's always nice to mention those that helped you get there, if people gave you support on slack or the local cat scared you into completing give them a mention!
+**Richard Wells**
+Your unwavering support throughout this project has been the beacon that guided me through challenges and uncertainties. Your wisdom, patience, and genuine belief in my potential have not only enriched my professional journey but have also instilled a confidence in me that I never knew I had. Your mentorship goes beyond mere guidance; it's a testament to the kind of remarkable person you are. I am profoundly grateful for every lesson, every piece of advice, and every moment of encouragement. Thank you for being an incredible mentor and for playing such a pivotal role in my growth.
+
+**Johanna Bergsro**
+In the intricate dance of professional life, having someone who consistently has your back is a rare and invaluable gift. Your unwavering support, your readiness to assist, and your genuine camaraderie have made every challenge more surmountable and every victory sweeter. It's not just your help that I am grateful for, but the trust and friendship that underpin it. Knowing that I can count on you has given me strength on the toughest days. Thank you for being more than just a colleague; thank you for being a true friend. Your presence has made all the difference
 ​
 ### **Content:**
 ​
