@@ -136,35 +136,37 @@ a.nav-item, a.mob-item {
 }
 
 /* Style the mobile navigation menu */  
-    .mobile-nav {
-    overflow: hidden;
-    background-color: #F5F5F5;
-    position: relative;
-  }
-  .mobile-nav #navLinks {
-    display: none;
-  }
-  .mobile-nav a {
-    color: #212121;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 15px;
-    display: block;
-    }
-  .mobile-nav a.icon {
-    background: #00E5FF;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .mobile-nav a:hover {
-    background-color: #00C853;
-    color: #212121;
-  }
-  .active {
-    color: #00C853;
-  }
+.mobile-nav {
+overflow: hidden;
+background-color: #F5F5F5;
+position: relative;
+}
+.fa-solid {
+    color:#1A237E
+}
+.mobile-nav #navLinks {
+display: none;
+}
+.mobile-nav a {
+padding: 15px 20px;
+text-decoration: none;
+font-size: 15px;
+display: block;
+}
+.mobile-nav a.icon {
+background: #00E5FF;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+.mobile-nav a:hover {
+background-color: #00C853;
+color: #212121;
+}
+.active {
+color: #00C853;
+}
 
 
 /* Containers */
@@ -516,7 +518,7 @@ a.some-icons-bg:hover {
 
 /* Media query min 1360px */
 @media screen and (min-width: 1360px) {
-    .mobile-nav {
+    .navigation-mobile {
         display: none;
     }
 }
@@ -525,10 +527,10 @@ a.some-icons-bg:hover {
     .width-90 {
         width: 90%;
     }
-    .mobile-nav {
+    .navigation-mobile {
         display: block;
     }
-    .big-menu {
+    #nav-bar {
         display: none;
     }
 }
