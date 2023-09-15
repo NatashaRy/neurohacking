@@ -586,6 +586,9 @@ a.some-icons-bg:hover {
 }
 /* Media query max 720px */
 @media screen and (max-width: 720px) {
+    .mobile-nav, #home, #about, #benefits, #how-it-works, #faq, #contact {
+        overflow: hidden;
+    } 
     .regular-heading {
         text-align: center;
     }
@@ -610,9 +613,6 @@ a.some-icons-bg:hover {
 }
 /* Media query max 480px */
     @media screen and (max-width: 480px) {
-        body {
-            width: 100%;
-        }
         .some-icons {
             display: flex;
             flex-wrap: wrap;
@@ -631,12 +631,6 @@ a.some-icons-bg:hover {
             padding: 18% 0;
             max-width: 95%;
             height: auto;
-        }
-        #faq {
-        overflow: hidden;
-        }
-        #about, #how-it-works, #faq, #benefits, #contact, #home, {
-            width: 100%; 
         }
         #contact {
             margin-left: 2em;
