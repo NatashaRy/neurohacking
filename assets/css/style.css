@@ -26,11 +26,7 @@ body {
 }
 .tech-bg {
     background-color: #00E5FF;
-<<<<<<< HEAD
-    background-image: url("assets\images\technologic-bg-picture.png") alt="abstract technology";
-=======
     background-image: url("assets/images/technologic-bg-picture.png";
->>>>>>> 316679f4eb7a17e1be8bf164c38a66344b701c4c
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center;
