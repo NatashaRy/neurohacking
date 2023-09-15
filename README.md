@@ -53,25 +53,27 @@ This is optional but offers the insight into what the aim of the project are
 ​
 ### **Wireframes:**
 ​
-These are optional if you have any drawings or diagrams about how the site is intended to look include them here
+![desktop-wireframes](docs\images\Desktop.png) ![tablet-wireframes](docs\images\Tablet.png) ![mobile-wireframes](docs\images\Mobile.png)
 ​
 ### **Color Scheme:**
-​
-Here discuss about the colours you have chosen for the design and the reasoning behind it, make sure to include hash values as well!
-​
-For the page we decided on a black (#000) and red theme (#a red hash i can't remember one) to hark back to the designs of the Sega megadrive which is symbolic of the retro gaming scene blah blah bull shit goes here
+​![color-scheme](docs\images\UI Elements - Color Palette.png)
+We wanted ​the site to feel futurustic and make the user feel like like their encounting with something innovative and cool. Since we focus a lot on personal development and self-improvement our chosen colors which represent that. 
+
+Our main color is green (#00C853), it use to be associated with something fresh, innovation and growth. 
+We also have to kinds of blue accent colors, one lighter shade (#00E5FF) and one dark shade (#1A237E). Blue colors make people feel trust and brings calm. The lighter one is also a fresh, innovative and clear color which is very visible, because of that we have chosen not to use it too frequently, only for details, so the user think the site is a pain to visit. The darker shade symbolises depth and are a bit mystorius, which also suites NeuroNova good because neurohacking is a quite unexplored area for most people. 
+We have also a light (#F5F5F5) and a dark shade (F212121) to make it easier to match colors in back- and forground in a harmonic and plesant way. 
+
+We decided to change the use for the colors and focus on a darker background and lighter colors for body text and headings, because we thoguht it would align more with the sites purpose and feeling and thought we want our users to have.
+
 ​
 ## **Typography**
+​​
+* Throughout the page, there are two fonts used:
+  * Proxima Nova - Font-weight bold - used for headings, navigation and buttons. Buttons and navigation have uppercase applied as a text transform to make them pop compared to other text.
+  * Open Sans - For rest of the element, such as body text and our form. 
 ​
-Here is a chance to discuss the fonts used and again why, doesn't need to be crazy detail
-​
-* Throughout the page, there are three fonts used:
-  * Oswald - For the title to give it a strong presence.
-  * DM sans - For all other headings including the navbar. 
-  * Open sans - for all content text.
-​
-* DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to the site
-* All fonts were sourced from Google fonts, as stated in the credits.
+* Proxima Nova and Open Sans are a great font pair, proxima as a thougher, bold font which open sans smooth can work together with without being to much.
+* All fonts were sourced from Adobe fonts through a link to the webtyp-kit we have created.
 ​
 ## **Current Features Common to all pages**
 ​
@@ -110,26 +112,34 @@ Here is a good idea to talk about how and why you have tested with certain tools
 ## **Bugs**
 ​
 We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
-​
-* Issue - When on mobile the user had horizontal scroll with items overflowing
-* Cause - The images had absolute positioning and caused them to go off screen
+
+* Issue - Mobile menu is only working in Chrome developer tools. It does not work on mobile devices at all.
+* Cause - De cause is uncertain. We've tried different kinds of menus on mobile but get the same issue. I have not found a resolution for this bug yet.
 * Resolution - Changed the width of the image to stay within the confines of the screen.
+​
+* Issue - On smaller screens the horizontal scroll was possible.
+* Cause - The FAQs styling were not optimized enough with made it go out of the screen. 
+* Resolution - Changed width to auto for screens 720px or below, which solve the problem.  
+
+* Issue - Background images were not visable. 
+* Cause - The path to some of the images was not relative, make them non-visable on Github pages. 
+* Resolution - Changing the path to the source and the images got visable again.   
 ​
 ***
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 ​
-1. From the project's [repository](pageurl), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/NatashaRy/neurohacking), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://yoururlhere)
+You  can find the live site via the following URL - [live webpage](https://natashary.github.io/neurohacking/)
 ***
 ​
 ## **Tech**
 ​
-Here mention what technologies you've used for example
+The technologies used in this project are:
 ​
 - HTML
 - CSS
@@ -144,9 +154,10 @@ It's always nice to mention those that helped you get there, if people gave you 
 If you took any code from online source and by this i mean copy paste with zero changes mention it here!
 - Icons in footer was taken from [Fontawesome](https://fontawesome.com/)
 - Used this guide as inspiration for FAQ: [Stechies.com](https://www.stechies.com/create-accordion-html-without-javascript/)
+- Most of the texts are written by or modified by ChatGPT4, based on my promts [Chat GPT](https://chat.openai.com/)
   
 ### **Media:**
-​- Hero background image: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
+- Hero background image:: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
 - Image on about-section: [Stockvault](https://www.stockvault.net/photo/264052/technology-disruption-the-rise-of-artificial-intelligence)
 - Background image on benefits- and FAQ-section: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
-- Video on How it works-section is created with [Chat GPT4 + Visla-plugin](https://chat.openai.com/).
+- Video on How it works-section is created with [Chat GPT4 + Visla-plugin](https://chat.openai.com/)
