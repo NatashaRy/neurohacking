@@ -146,7 +146,7 @@ We always have bugs in development, a few bullet points here to talk about bugs 
 **Non-visible images**
 * Issue - During development and after deployment we noticed that images in the directory would not apperear on the website.
 * Cause - The path to some of the images was not relative, make them non-visable on Github pages. 
-* Resolution - Changing the path to the source and the images got visable again.   
+* Resolution - Changing the path to the source and some of the images got visible. Since this method did not work on the background image we chose to upload it to Google Drive and use the url provided from there for the background image. 
 ​
 ***
 ## **Deployment**
