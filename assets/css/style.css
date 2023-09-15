@@ -225,7 +225,7 @@ input[type="submit"]:hover {
     margin: 30px 0;
 }
 .regular-text {
-    font-size: 1.11em;
+    font-size: 1.2em;
     line-height: 1.5em;
     margin: 10px 0;
     color: #F5F5F5;
@@ -534,11 +534,11 @@ a.some-icons-bg:hover {
     button.mobile-btn {
         visibility: hidden;
     }
-}
-/* Media query min 1361px */
-@media screen and (min-width: 1360px) {
-    #mobile-nav-box {
-        visibility: hidden;
+    .regular-text {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin: 10px 0;
+        color: #F5F5F5;
     }
 }
 
