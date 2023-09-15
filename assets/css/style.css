@@ -150,7 +150,7 @@ display: none;
 .mobile-nav a {
 padding: 15px 20px;
 text-decoration: none;
-font-size: 15px;
+font-size: 17px;
 display: block;
 }
 .mobile-nav a.icon {
@@ -167,8 +167,10 @@ color: #212121;
 .active {
 color: #00C853;
 }
-#mobile-icon {
-
+#nn-mobile {
+    width: 119px;
+    padding: 0;
+    margin: -9px 1px;
 }
 
 
@@ -243,7 +245,7 @@ color: #00C853;
 }
 #nn-icon {
     margin-top: 5px;
-    max-width: 68px;
+    max-width: 6px;
     max-height: 70px;
 }
 a.nav-item:hover {
