@@ -7,40 +7,55 @@
     <meta name="keywords" content="neurohacking, brain optimization, cognitive enhancement, self-improvement, brain exercises, neuroscience, FAQ, benefits of neurohacking, how neurohacking works, subscribe to neurohacking, contact neurohacking experts">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/9636bdb1ff.js" crossorigin="anonymous"></script>
     <title>Neurohacking</title>
 </head>
 <body>
         <!-- Header -->
-        <header>
-            <div id="nav-bar" class="flex-container text-center no-space">
-                <div class="flex-container width-80 width-90 text-center no-space" id="flex-container-header">
-                    <div class="flex-box text-left">
-                        <img id="nn-icon" src="assets/images/neuronova-favicon.svg" alt="NeuroNova icon">
-                    </div>
-                    <!-- Navigation for larger screens-->
-                    <nav class="flex-box-wide text-center" id="nav-center-box">
-                        <a href="#home" class="nav-item">Home</a>
-                        <a href="#about" class="nav-item">About</a>
-                        <a href="#benefits" class="nav-item">Benefits</a>
-                        <a href="#how-it-works" class="nav-item">How it works</a>
-                        <a href="#faq" class="nav-item">FAQ</a>
-                        <a href="#contact" class="nav-item">Contact</a>
-                    </nav>
-                    <div class="flex-box-wide text-center" id="mobile-nav-box">
-                        <button class="mobile-btn">Menu</button>
-                        <div class="dropdown-content light-bg text-center">
-                            <a href="#home" class="menu-mobile">Home</a>
-                            <a href="#about" class="menu-mobile">About</a>
-                            <a href="#benefits" class="menu-mobile">Benefits</a>
-                            <a href="#how-it-works" class="menu-mobile">How it works</a>
-                            <a href="#faq" class="menu-mobile">FAQ</a>
-                            <a href="#contact" class="menu-mobile">Contact</a>
-                        </div>
-                    </div>
+        <header id="nav-bar" class="flex-container text-center no-space">
+            <div class="big-menu flex-container width-80 width-90 text-center no-space">
+                <div class="flex-box text-left">
+                    <a href="#">
+                        <img id="nn-icon" src="assets\images\neuronova-favicon.png" alt="NeuroNova icon" aria-label="Top of page">
+                    </a>
                 </div>
+                <nav class="flex-box-wide text-center" id="nav-center-box">
+                    <a href="#home" class="nav-item light-text-color">Home</a>
+                    <a href="#about" class="nav-item light-text-color">About</a>
+                    <a href="#benefits" class="nav-item light-text-color">Benefits</a>
+                    <a href="#how-it-works" class="nav-item light-text-color">How it works</a>
+                    <a href="#faq" class="nav-item light-text-color">FAQ</a>
+                    <a href="#contact" class="nav-item light-text-color">Contact</a>
+                </nav>
             </div>
+            <!-- Top Navigation Menu -->
+            <div class="mobile-nav">
+                <a href="#home" class="active"><img scr="assets/images/neuronova-favicon.png" alt="neuronova icon" aria-label="Top of page"></a>
+                <div id="navLinks" class="dark-text-color text-right">
+                    <a href="#home" class="mob-item dark-text-color">Home</a>
+                    <a href="#about" class="mob-item dark-text-color">About</a>
+                    <a href="#benefits" class="mob-item dark-text-color">Benefits</a>
+                    <a href="#how-it-works" class="mob-item dark-text-color">How it works</a>
+                    <a href="#faq" class="mob-item dark-text-color">FAQ</a>
+                    <a href="#contact" class="mob-item dark-text-color">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" id="nav-icorn" onclick="toggleButton()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>           
+            <!-- JavaScript for toggle-button -->
+            <script>
+                function toggleButton() {
+                var x = document.getElementById("navLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+                }
+            </script>
         </header>
-
+          
         <!-- Hero -->
         <section class="flex-container no-space" id="home">
             <div class="flex-container hero">
@@ -264,7 +279,7 @@
                         </a>
                     </div>
                     <div class="flex-box regular-text">
-                        <img id="nn-logotype" src="assets/images/neuronova-logo.svg" alt="Logotype NeuroNova">
+                        <img id="nn-logotype" src="assets\images\neuronova-logo.png" alt="Logotype NeuroNova">
                         <p class="regular-text footer-text">Neurohacking isn't just a trend; it's a revolution in understanding and enhancing our brain's capabilities. Dive deep into the world of neurohacking,where science meets self-improvement. Discover techniques to rewire, refine.</p>
                         <div class="some-icons">
                             <a class="some-icons-bg light-bg" href="https://instagram.com" target="_blank" aria-label="Open instagram in new tab">
