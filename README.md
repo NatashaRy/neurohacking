@@ -53,10 +53,10 @@ This is optional but offers the insight into what the aim of the project are
 ​
 ### **Wireframes:**
 ​
-![desktop-wireframes](docs\images\Desktop.png) ![tablet-wireframes](docs\images\Tablet.png) ![mobile-wireframes](docs\images\Mobile.png)
+![desktop-wireframes](docs\images\desktop.png) ![tablet-wireframes](docs\images\tablet.png) ![mobile-wireframes](docs\images\mobile.png)
 ​
 ### **Color Scheme:**
-​![color-scheme](docs\images\UI Elements - Color Palette.png)
+​![color-scheme](docs\images\ui-elements-color-palette.png)
 We wanted ​the site to feel futurustic and make the user feel like like their encounting with something innovative and cool. Since we focus a lot on personal development and self-improvement our chosen colors which represent that. 
 
 Our main color is green (#00C853), it use to be associated with something fresh, innovation and growth. 
@@ -67,7 +67,7 @@ We decided to change the use for the colors and focus on a darker background and
 
 ​
 ## **Typography**
-​​
+​​![Typography](docs\images\ui-elements-typography.png)
 * Throughout the page, there are two fonts used:
   * Proxima Nova - Font-weight bold - used for headings, navigation and buttons. Buttons and navigation have uppercase applied as a text transform to make them pop compared to other text.
   * Open Sans - For rest of the element, such as body text and our form. 
@@ -110,7 +110,13 @@ Here is a good idea to talk about how and why you have tested with certain tools
 
 ## **Manual testing:**
 NeuroNova has been tested for resposivness in the following ways:
-* Chrome dev tools - We have used Chrome Dev Tools to check the responsiveness of the website. We have tested the site with Dev Tools in the following ways:
+
+**Resposiveness**
+We have tested this to see the that the user will get the same experience visiting our website, no matter what device they choose to use. 
+
+* Chrome dev tools - We have used Chrome Dev Tools to check the responsiveness of the website. 
+
+We have tested the site with Dev Tools in the following ways:
 1. Live simulation of the site thought VS Code.
 2. Published page on GitHub. 
 
@@ -127,15 +133,18 @@ Ways we have used Dev Tools:
 ​
 We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
 
+**Responsive navigation menu**
 * Issue - Mobile menu is only working in Chrome developer tools. It does not work on mobile devices (Samsung Galaxy s22 Ultra) at all.
 * Cause - What causes the problem is uncertain at this momemnt. We've tried different kinds of menus on mobile but get the same issue. I have not found a resolution for this bug yet.
 * Resolution - Due to limited time, we chose to make a temporary solution and add an extra section for the menu in smaller units. We know that it is not an optimal solution, but it contributes to the site's functionality and is kept within the framework of the deadline.
 ​
-* Issue - On smaller screens the horizontal scroll was possible.
+**Overflow on smaller screens**
+* Issue - On smaller screens it was possibke to scroll horizontal. We could see this during our manual testing. 
 * Cause - The FAQs styling were not optimized enough with made it go out of the screen. 
 * Resolution - Changed width to auto for screens 720px or below, which solve the problem.  
 
-* Issue - Background images were not visable. 
+**Non-visible images**
+* Issue - During development and after deployment we noticed that images in the directory would not apperear on the website.
 * Cause - The path to some of the images was not relative, make them non-visable on Github pages. 
 * Resolution - Changing the path to the source and the images got visable again.   
 ​
