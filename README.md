@@ -89,6 +89,20 @@ The hero section is the first thing users see when they visit the site. It sets 
 * Engaging Visuals: The hero section features captivating visuals that draw users in and pique their interest in neurohacking.
 * Clear Call to Action: A clear and compelling call to action encourages users to learn more or take the next step in their neurohacking journey.
 
+#### *About section:*
+This section delves into the concept of neurohacking, providing users with a comprehensive overview.
+
+* Informative Content: Users are presented with well-researched and easy-to-understand information about neurohacking.
+* Engaging Layout: Short and concise content is laid out in a way that's engaging and easy to digest.
+
+#### *About section:*
+This section delves into the concept of neurohacking, providing users with a comprehensive overview.
+
+* Informative Content: Users are presented with well-researched and easy-to-understand information about neurohacking.
+* Engaging Layout: Short and concise content is laid out in a way that's engaging and easy to digest.
+
+
+
 
 ​
 #### *features
@@ -162,10 +176,18 @@ No errors were found.
 * We tested both desktop and mobile
 
 # **Desktop**
+Over all a good score both on desktop and mobile.
+Improvment to be made:
+* Performance: Change som image elements (that is not working at the moment).
+* Accessibility: The iframe we tried to fix and a contrast issue, which do not appear when the background image are working as it is supposed to.
 ![Ligthouse desktop](docs\images\lighthouse-desktop.png)
 
 # **Mobile**
-​
+Improvments to be made are the same desktop exept render-blocking should be eliminated on mobile aswell.
+![Ligthouse mobile](docs\images\lighthouse-mobile.png)
+
+
+
 ## **Bugs**
 ​
 During the project a lot of bugs appeard during development and deployment. We belive we have solved most of the issues that occured to get a fuctional website. 
