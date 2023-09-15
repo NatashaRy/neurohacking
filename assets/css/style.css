@@ -613,6 +613,9 @@ a.some-icons-bg:hover {
 }
 /* Media query max 480px */
     @media screen and (max-width: 480px) {
+        .regular-heading {
+            font-size: 2em;
+        }
         .some-icons {
             display: flex;
             flex-wrap: wrap;
