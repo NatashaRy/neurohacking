@@ -436,10 +436,10 @@ a#accept-terms:hover {
     font-weight: bold;
     line-height: 1.2em;
 }
-#neurohacking-faq {
+.neurohacking-faq {
     align-content: top;
 }
-#neurohacking-faq label {
+.neurohacking-faq label {
     box-shadow:0 0 10px #00E5FF;
     display: block;    
     padding: 10px 25px;
@@ -450,14 +450,14 @@ a#accept-terms:hover {
     transition: ease .5s;
     width: 450px;
 }
-#neurohacking-faq label:hover {
+.neurohacking-faq label:hover {
     box-shadow:0 0 10px #F5F5F5;
 }
 .content {
     box-shadow:0 0 10px #00E5FF;
     padding: 10px 25px;
 }
-#neurohacking-faq input:checked + label + .content {
+.neurohacking-faq input:checked + label + .content {
     display: block;
     width: 450px;
     webkit-animation: fadeIn 0.5s ease-out;
