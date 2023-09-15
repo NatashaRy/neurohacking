@@ -46,9 +46,9 @@ NeuroNova is an initiative in the realm of cognitive enhancement. We want to pro
 ​
 This is optional but offers the insight into what the aim of the project are
 ​
-* To inform the user on opening times
-* To inform the user about what we offer when they are here
-* To offer the user an oppertunity to get in contact
+* To inform users on how beneficial and broad neurohacking can be 
+* To educate users on how they can use neurohacking to improve certain areas
+* To offer the users support and guidence through their neurohacking journey
 ​
 ​
 ### **Wireframes:**
@@ -78,11 +78,18 @@ We decided to change the use for the colors and focus on a darker background and
 ## **Current Features Common to all pages**
 ​
 #### *Navigation Bar:*
-This is an example of the features section, your going to talk about each section of the page and what it offers for the navbar for example
-​
-* The user is given links to each section of the page
-* Each option is presented in a way that is always obvious and reable
-* on smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience
+
+* Provide links to all sections: The navigation bar provides direct links to each section of the page, ensuring users can quickly jump to the content they're interested in.
+* Clear Presentation: Each navigation option is presented in a clear, readable font and style, ensuring users can easily identify where they want to go.
+* Mobile Optimization: For users on smaller screens, a hamburger menu is provided. This ensures that mobile users have an optimal, clutter-free experience.
+
+#### *Hero section:*
+The hero section is the first thing users see when they visit the site. It sets the tone and introduces them to the concept of neurohacking.
+
+* Engaging Visuals: The hero section features captivating visuals that draw users in and pique their interest in neurohacking.
+* Clear Call to Action: A clear and compelling call to action encourages users to learn more or take the next step in their neurohacking journey.
+
+
 ​
 #### *features
 ​
@@ -108,10 +115,10 @@ Here is a good idea to talk about how and why you have tested with certain tools
 ​
 * Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
 
-## **Manual testing:**
+### **Manual testing:**
 NeuroNova has been tested for resposivness in the following ways:
 
-**Resposiveness**
+# **Resposiveness**
 We have tested this to see the that the user will get the same experience visiting our website, no matter what device they choose to use. 
 
 * Chrome dev tools - We have used Chrome Dev Tools to check the responsiveness of the website. 
@@ -124,7 +131,7 @@ Ways we have used Dev Tools:
 1. Narrowed the screen when opening Dev Tools.
 2. Checked different devices and dimensions.
 
-**Different devices**
+# **Different devices**
 We have also tested the website manually on different devices to check the responsivness. 
 The devices we have used are:
 1. Monitors
@@ -136,17 +143,32 @@ The devices we have used are:
 3. Tablet 
     * Ipad Air
 
-    
-
 
 ## **Functionality:**
+During the manual testing we also tested the websites functionality so the users get what they expect visiting our website. 
 
 ## **Validators:**
-​
+# **CSS** - https://jigsaw.w3.org/css-validator/ 
+No errors were found.
+![W3C CSS-validator](docs\images\w3c-css-validation.png)
+
+# **HTML** - https://validator.w3.org/nu/ 
+No errors were found.
+![W3C HTML validator](docs\images\w3c-html-validator.png)
+
+## **Lighthouse score**
+​We also tested the site in Lighthouse. 
+* The test were preformed in incognito mode to get more accurate results
+* We tested both desktop and mobile
+
+# **Desktop**
+![Ligthouse desktop](docs\images\lighthouse-desktop.png)
+
+# **Mobile**
 ​
 ## **Bugs**
 ​
-We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
+During the project a lot of bugs appeard during development and deployment. We belive we have solved most of the issues that occured to get a fuctional website. 
 
 **Responsive navigation menu**
 * Issue - Mobile menu is only working in Chrome developer tools. It does not work on mobile devices (Samsung Galaxy s22 Ultra) at all.
