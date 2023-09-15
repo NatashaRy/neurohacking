@@ -107,6 +107,20 @@ Here is a good idea to talk about how and why you have tested with certain tools
 * Functionality - Each feature needs to be tested before something is complete, talk about the process, click each link check each image, does form validation work, if your using javascript or anything else, does it always behave as the user expects
 ​
 * Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
+
+## **Manual testing:**
+NeuroNova has been tested for resposivness in the following ways:
+* Chrome dev tools - We have used Chrome Dev Tools to check the responsiveness of the website. We have tested the site with Dev Tools in the following ways:
+1. Live simulation of the site thought VS Code.
+2. Published page on GitHub. 
+
+Ways we have used Dev Tools:
+1. Narrowed the screen when opening Dev Tools.
+2. Checked different devices and dimensions.
+
+## **Functionality:**
+
+## **Validators:**
 ​
 ​
 ## **Bugs**
@@ -114,8 +128,8 @@ Here is a good idea to talk about how and why you have tested with certain tools
 We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
 
 * Issue - Mobile menu is only working in Chrome developer tools. It does not work on mobile devices (Samsung Galaxy s22 Ultra) at all.
-* Cause - De cause is uncertain. We've tried different kinds of menus on mobile but get the same issue. I have not found a resolution for this bug yet.
-* Resolution - Changed the width of the image to stay within the confines of the screen.
+* Cause - What causes the problem is uncertain at this momemnt. We've tried different kinds of menus on mobile but get the same issue. I have not found a resolution for this bug yet.
+* Resolution - Due to limited time, we chose to make a temporary solution and add an extra section for the menu in smaller units. We know that it is not an optimal solution, but it contributes to the site's functionality and is kept within the framework of the deadline.
 ​
 * Issue - On smaller screens the horizontal scroll was possible.
 * Cause - The FAQs styling were not optimized enough with made it go out of the screen. 
