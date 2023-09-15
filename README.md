@@ -136,6 +136,8 @@ The devices we have used are:
 3. Tablet 
     * Ipad Air
 
+    
+
 
 ## **Functionality:**
 
