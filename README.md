@@ -113,7 +113,7 @@ Here is a good idea to talk about how and why you have tested with certain tools
 ​
 We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
 
-* Issue - Mobile menu is only working in Chrome developer tools. It does not work on mobile devices at all.
+* Issue - Mobile menu is only working in Chrome developer tools. It does not work on mobile devices (Samsung Galaxy s22 Ultra) at all.
 * Cause - De cause is uncertain. We've tried different kinds of menus on mobile but get the same issue. I have not found a resolution for this bug yet.
 * Resolution - Changed the width of the image to stay within the confines of the screen.
 ​
@@ -154,7 +154,7 @@ It's always nice to mention those that helped you get there, if people gave you 
 If you took any code from online source and by this i mean copy paste with zero changes mention it here!
 - Icons in footer was taken from [Fontawesome](https://fontawesome.com/)
 - Used this guide as inspiration for FAQ: [Stechies.com](https://www.stechies.com/create-accordion-html-without-javascript/)
-- Most of the texts are written by or modified by ChatGPT4, based on my promts [Chat GPT](https://chat.openai.com/)
+- Most of the texts are written by or modified by Chat GPT4, based on my promts [Chat GPT](https://chat.openai.com/)
   
 ### **Media:**
 - Hero background image:: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
