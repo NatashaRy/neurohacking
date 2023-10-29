@@ -229,13 +229,14 @@ Your unwavering support throughout this project has been the beacon that guided 
 In the intricate dance of professional life, having someone who consistently has your back is a rare and invaluable gift. Your unwavering support, your readiness to assist, and your genuine camaraderie have made every challenge more surmountable and every victory sweeter. It's not just your help that I am grateful for, but the trust and friendship that underpin it. Knowing that I can count on you has given me strength on the toughest days. Thank you for being more than just a colleague; thank you for being a true friend. Your presence has made all the difference
 ​
 ### **Content:**
-​
-If you took any code from online source and by this i mean copy paste with zero changes mention it here!
+
+- Favicon made with [Favicon.io](https://favicon.io/)
 - Icons in footer was taken from [Fontawesome](https://fontawesome.com/)
 - Used this guide as inspiration for FAQ: [Stechies.com](https://www.stechies.com/create-accordion-html-without-javascript/)
 - Most of the texts are written by or modified by Chat GPT4, based on my promts [Chat GPT](https://chat.openai.com/)
   
 ### **Media:**
+
 - Hero background image:: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
 - Image on about-section: [Stockvault](https://www.stockvault.net/photo/264052/technology-disruption-the-rise-of-artificial-intelligence)
 - Background image on benefits- and FAQ-section: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
