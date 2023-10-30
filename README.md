@@ -230,14 +230,25 @@ In the intricate dance of professional life, having someone who consistently has
 ​
 ### **Content:**
 
-- Favicon made with [Favicon.io](https://favicon.io/)
-- Icons in footer was taken from [Fontawesome](https://fontawesome.com/)
+- All code was written by me, some code are inspired by others who are referenced below.
 - Used this guide as inspiration for FAQ: [Stechies.com](https://www.stechies.com/create-accordion-html-without-javascript/)
-- Most of the texts are written by or modified by Chat GPT4, based on my promts [Chat GPT](https://chat.openai.com/)
+
   
 ### **Media:**
+
+- Favicon created with [Favicon.io](https://favicon.io/)
+- Logotype and icon created in [Canva PRO](https://canva.com/)
+- Icons was taken from [Fontawesome](https://fontawesome.com/)
+- Images compressed with [TinyPNG](https://tinypng.com/)
+- Screenshoot for README.md [Am I Responsive](https://ui.dev/amiresponsive)
+- Color palette, typography and wireframes were created in [Adobe XD](https://adobexdplatform.com/)
+- Video on "How it works"-section was created with [Chat GPT4 + Visla-plugin](https://chat.openai.com/)
+
 
 - Hero background image:: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
 - Image on about-section: [Stockvault](https://www.stockvault.net/photo/264052/technology-disruption-the-rise-of-artificial-intelligence)
 - Background image on benefits- and FAQ-section: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
-- Video on How it works-section is created with [Chat GPT4 + Visla-plugin](https://chat.openai.com/)
+
+
+
+  
