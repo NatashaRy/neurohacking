@@ -7,14 +7,14 @@
 
 body {
     margin: 0px;
-    background-color: #212121;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F5F5F5;
+    background-color: #212121;
 }
 
 /*------ Layout, boxes, align */
-.width-65 {
-    width: 65%;
+.width-55 {
+    width: 55%;
 }
 
 .section-width {
@@ -34,12 +34,13 @@ body {
 }
 
 .col-2 {
-    flex: 2;
+    flex: 1.5;
 }
 
 .grid-box {
     flex: 1;
     margin: 15px;
+    box-shadow: 1px 1px 15px #00E5FF;
 }
 
 .flex-container {
@@ -83,9 +84,9 @@ body {
 }
 
 .large-heading {
-    font-size: 6rem;
+    font-size: 5.6rem;
     line-height: 0.9em;
-    margin: 3rem;
+    margin: 2.5rem;
     text-shadow: 3px 1px 4px #2121218e;
 }
 
@@ -95,9 +96,13 @@ body {
     line-height: 1.1em;
 }
 
+.shadow-heading {
+    text-shadow: 1px 1px 15px #000000;
+}
+
 .large-body {
     font-size: 1.3rem;
-    line-height: 1.7em;
+    line-height: 1.75em;
 }
 
 .regular-text {
@@ -153,7 +158,7 @@ a.primary-btn, input.submit-btn {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 10%;
-    padding: 4px 20px;
+    padding: 4px 18px;
     letter-spacing: 1.5px;
     border: solid 2px #212121;
 }
@@ -164,45 +169,92 @@ a.primary-btn:hover, input.submit-btn:hover {
     background-color: #F5F5F5;
 }
 
-/*--- Header */
+a.primary-btn:active {
+    box-shadow: 2px 4px  #00C853;
+    background-color: #F5F5F5;
+    color: #1A237E;
+    border: solid 2px #212121;
+}
+
+/*--- Header, navigation */
 .header {
     background-color: #1A237E;
-    padding: 0 50px;
+    padding: 5px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.logo {
+    flex: 1 0 150px;
+    margin-left: 50px
 }
 
 .nn-icon {
     width: 5em;
-    margin-top: 3px;
+    margin-top: 2px;
+    float: left;
 }
 
-.nav {
+.navigation {
     padding: 0;
     display: flex;
     flex: 0 0 auto;
     justify-content: flex-end;
-    align-items: center;
-    gap: 40px;
+    margin-right: 50px;
 }
 
 a.nav-item {
     border: 0;
     color:#F5F5F5;
+    margin: 0 10px;
 }
 
 a.nav-item:hover {
     border: 2px solid #212121;
+    margin: 0 8px;
+}
+
+.hamburger  {
+    display: none;
+    padding: 0;
+}
+
+#openHamburger, #closeHamburger {
+    font-size: 30px;
+    font-weight: 800;
+    color: #F5F5F5;
+    margin-top: -1px;
+}
+
+#openHamburger:hover, #closeHamburger:hover {
+    color: #00C853;
+}
+
+#closeHamburger {
+    padding-right: 15px;
 }
 
 /*--- Hero */
 .home {
-    padding: 6% 8%;
+    padding: 4%;
     box-shadow: 8px 4px 12px #f5f5f53a;
     border-radius: 15px;
-    background-color: #f5f5f5c0;
+    background-color: #f5f5f5e8;
 }
 
 #home {
-    height: 95vh
+    height: 100vh;
+    background-image: url("../images/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home {
+    padding-bottom: 5%;
 }
 
 .highlight {
@@ -210,9 +262,10 @@ a.nav-item:hover {
     padding: 0 6px;
 }
 
-/*--- How it works */
-.explainer-video {
-    max-width: 50%;
+/*--- About */
+.about-img {
+    width: 100%;
+    box-shadow: 1px 1px 20px #00e5ff3f;
 }
 
 /*--- Benefits */
@@ -220,9 +273,30 @@ a.nav-item:hover {
     margin-top: 30px;
 }
 
+#benefits {
+    background-image: url("../images/neurohacking-human.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: auto;
+    background-attachment: fixed;
+    padding: 7% 10%;
+}
+
+/*--- How it works */
+.explainer-video {
+    max-width: 100%;
+}
+
 /*--- FAQ */
 #faq {
     height: auto;
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
 }
 
 .hidecontent {
@@ -230,26 +304,26 @@ a.nav-item:hover {
 }
 
 .faq label {
-    box-shadow: 0 0 7px #00e5ffcb;
+    box-shadow: 0 0 10px #00e5ffcb;
     display: block;
     padding: 15px 25px;
     margin: 40px 0 0;
     cursor: pointer;
-    background-color: #00E5FF;
+    background-color: #F5F5F5;
     color: #212121;
     transition: ease .5s;
     width: auto;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.3em;
 }
 
 .faq label:hover {
-    box-shadow: 0 0 10px #F5F5F5;
+    box-shadow: 1px 2px 15px #00E5FF;
 }
 
 .content {
-    box-shadow: 0 0 10px #00E5FF;
+    box-shadow: 0 0 15px #00E5FF;
     padding: 10px 25px;
 }
 
@@ -301,4 +375,224 @@ a.nav-item:hover {
 
 .copyright {
     padding: 5px;
+}
+
+/* Media query max 1120px */
+@media screen and (max-width: 1120px) {
+    .section-width, .footer, .home {
+        padding: 7%;
+    }
+
+    .width-55 {
+        width: 85%;
+    }
+
+    .large-heading {
+        font-size: 4.5rem;
+    }
+
+    .regular-heading {
+        padding: 0;
+    }
+
+    .row > * {
+        padding: 1rem 1rem;
+    }
+
+    .logo {
+        flex: 1;
+        padding: 0;
+        margin-left: 20px;
+    }
+
+    a.nav-item {
+        border: 0;
+        color:#F5F5F5;
+        margin: 2px 6px;
+    }
+
+    .navigation {
+        margin-right: 20px;
+    }
+    
+    a.nav-item:hover {
+        border: 2px solid #212121;
+        margin: 0 4px;
+    }
+
+    #how-it-works {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .flex-1120 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .explainer-video {
+        width: 100%;
+        height: auto;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .form, #benefits {
+        padding: 10% 5%;
+    }
+
+    .footer-info {
+        width: 60%;
+    }
+
+    .contact {
+        width: 40%;
+    }
+}
+
+/* Media query max 890px */
+@media screen and (max-width: 890px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .regular-heading, .large-body, .footer, .some-icons {
+        text-align: center;
+    }
+
+    .header {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .hamburger #closeHamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        background-color: #1A237E;
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+        gap: 20px;
+        border-top: solid 2px #00C853;
+        box-shadow: 2px 1px 8px #00E5FF;
+    }
+
+    .nav-item {
+        width: 98%;
+        text-align: center;
+        padding: 0 2px;
+    }
+
+    #benefits {
+        padding: 10% 7%;
+    }
+
+    .grid-box {
+        margin: 25px 0;
+        padding: 25px;
+    }
+
+    #faq {
+        padding: 7%;
+    }
+
+    .faq-1 {
+        margin-top: -25px;
+    }
+
+    .faq-2 {
+        padding-top: 0;
+        margin-top: -40px;
+    }
+
+    .footer-info {
+        width: auto;
+        padding: 15px 0;
+    }
+
+    .contact {
+        width: auto;
+        padding: 10px 0;
+    }
+
+    .contact-info {
+        margin-left: -39px;
+    }
+}
+
+/* Media query max 460px */
+@media screen and (max-width: 460px) {
+    .section-width {
+        padding: 2%;
+    }
+
+    .width-55 {
+        width: 98%;
+    }
+
+    .large-heading {
+        font-size: 2.5rem;
+    }
+
+    .regular-heading {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .regular-text {
+        font-size: 0.9rem;
+    }
+
+    .large-body {
+        font-size: 1rem;
+        line-height: 1.3em;
+    }
+
+    .benefits-grid {
+        margin-top: 15px;
+    }
+
+    .grid-box {
+        padding: 25px 25px 25px 10px;
+    }
+
+    #name-field, #email-field {
+        margin: 15px 0 20px;
+        width: 100%;
+        padding: 8px;
+    }
+
+    .nn-logo {
+        width: 80%;
+    }
+
+    .some-icons {
+        padding: 0 10px;
+        line-height: 2.5em;
+    }
+
+    #get-in-touch {
+        padding: 0;
+        margin: 0;
+    }
 }

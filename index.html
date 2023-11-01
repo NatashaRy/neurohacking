@@ -17,33 +17,36 @@
 
     <body>
         <!-- Header -->
-        <header id="nav-bar" class="header blue-bg row ai-c">
-            <div class="col-1 no-space">
-                <a href="#">
+        <header class="header blue-bg row ai-c">
+            <div class="logo no-space">
+                <a href="./index.html">
                     <img src="assets/images/neuronova-icon.png" alt="NeuroNova icon" class="nn-icon">
                 </a>
             </div>
-            <nav class="nav text-right">
+            <div class="navigation ai-c" id="navigation-items">
                 <a href="#home" class="nav-item primary-btn">Home</a>
                 <a href="#about" class="nav-item primary-btn">About</a>
                 <a href="#benefits" class="nav-item primary-btn">Benefits</a>
                 <a href="#how-it-works" class="nav-item primary-btn">How it works</a>
                 <a href="#faq" class="nav-item primary-btn">FAQ</a>
                 <a href="#contact" class="nav-item primary-btn">Contact</a>
-            </nav>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars" id="openHamburger"></i>
+                <i class="fa-regular fa-rectangle-xmark" id="closeHamburger"></i>
             </div>
         </header>
             
         <!-- Hero -->
         <section class="row ai-c jfc-c" id="home">
-            <div class="width-65">
+            <div class="width-55">
                 <div class="col-1 light-bg home text-center">
-                    <h1 class="large-heading green-text">Elevate your mind,<br>elevate your life!</h1>
+                    <h1 class="large-heading blue-text">Elevate your mind,<br>elevate your life!</h1>
                     <p class="large-body dark-text"><strong>Neurohacking isn't just a trend;</strong> 
                     it's a revolution in understanding and enhancing our brain's capabilities.
                     Dive deep into the world of neurohacking,where science meets self-improvement.
                     Discover techniques to <strong class="highlight">rewire</strong>, <strong class="highlight">refine</strong>, and <strong class="highlight">rejuvenate</strong> your mind.
-                    </p><br><br>
+                    </p><br>
                     <a href="#subscribe" class="primary-btn light-bg large-body blue-bg">
                         <span>Get updates!</span>
                     </a>
@@ -53,98 +56,97 @@
 
         <!-- About -->
         <section class="section-width" id="about">
-            <div class="row ai-c">
+            <div class="row ai-c flex-1120">
                 <div class="col-2 text-left">
                     <h2 class="regular-heading green-text heading-center">About neurohacking</h2>
                     <p class="regular-text">In the vast realm of self-improvement and personal growth, neurohacking emerges as a cutting-edge approach to understanding and enhancing the brain's capabilities. At its core, neurohacking is the practice of using science and technology to influence the brain's natural processes. This discipline draws from a myriad of fields, including neuroscience, psychology, and even biohacking, to provide tools and techniques that allow individuals to "hack" their neural pathways.
                     </p>
                 </div>
-                <div class="col-1">
-                    <img src="https://www.stockvault.net/data/2019/04/19/264052/preview16.jpg" alt="Illustrated human as artificial intelligence">
+                <div class="col-1 text-right">
+                    <img src="assets/images/about-neurohacking.jpg" alt="Illustrated human as artificial intelligence" class="about-img">
                 </div>
             </div>
         </section>
 
         <!-- Benefits -->
         <section class="ai-c jc-c section-width text-center" id="benefits">
-            <h2 class="light-text regular-heading">Benefits of neurohacking</h2>
-                <div class="row benefits-grid">
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Enhanced Cognitive Abilities</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Improved memory retention and recall.</li>
-                            <li class="dark-text">Enhanced focus and concentration.</li>
-                            <li class="dark-text">Better problem-solving and decision-making skills.</li>
-                        </ul>
-                    </div>
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Mood Regulation</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Reduction in symptoms of depression and anxiety..</li>
-                            <li class="dark-text">Enhanced emotional resilience and stability.</li>
-                            <li class="dark-text">Improved overall mood and well-being.</li>
-                        </ul>
-                    </div>
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Improved Sleep Quality</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Better sleep patterns leading to more restorative sleep.</li>
-                            <li class="dark-text">Reduction in sleep-related issues such as insomnia.</li>
-                        </ul>
-                    </div>
+            <h2 class="light-text regular-heading shadow-heading">Benefits of neurohacking</h2>
+            <div class="row benefits-grid">
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Enhanced Cognitive Abilities</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Improved memory retention and recall.</li>
+                        <li class="dark-text">Enhanced focus and concentration.</li>
+                        <li class="dark-text">Better problem-solving and decision-making skills.</li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Stress Reduction</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Enhanced ability to manage and cope with stress.</li>
-                            <li class="dark-text">Reduction in the physiological effects of stress on the body.</li>
-                        </ul>
-                    </div>
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Increased Neuroplasticity</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">The brain's ability to reorganize and form new neural connections improves, aiding in learning and adaptation.</li>
-                            <li class="dark-text">Faster recovery from neurological injuries.</li>
-                            <li class="dark-text">Improved overall mood and well-being.</li>
-                        </ul>
-                    </div>
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Enhanced Creativity</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Improved ability to think outside the box and come up with innovative solutions.</li>
-                        </ul>
-                    </div>
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Mood Regulation</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Reduction in symptoms of depression and anxiety..</li>
+                        <li class="dark-text">Enhanced emotional resilience and stability.</li>
+                        <li class="dark-text">Improved overall mood and well-being.</li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Optimized Brain Health</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Reduced risk of neurodegenerative diseases like Alzheimer's and Parkinson's.</li>
-                            <li class="dark-text">Slowed cognitive decline associated with aging.</li>
-                        </ul>
-                    </div>
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Better Mind-Body Connection</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Improved coordination and motor skills.</li>
-                            <li class="dark-text">Enhanced mindfulness and awareness of one's own body.</li>
-                        </ul>
-                    </div>
-                    <div class="grid-box light-bg">
-                        <h3 class="large-body blue-text">Increased Energy and Alertness</h3>
-                        <ul class="text-left regular-text ben-bullets">
-                            <li class="dark-text">Reduction in feelings of fatigue and brain fog.</li>
-                            <li class="dark-text">Renhanced overall vitality and alertness.</li>
-                        </ul>
-                    </div>
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Improved Sleep Quality</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Better sleep patterns leading to more restorative sleep.</li>
+                        <li class="dark-text">Reduction in sleep-related issues such as insomnia.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Stress Reduction</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Enhanced ability to manage and cope with stress.</li>
+                        <li class="dark-text">Reduction in the physiological effects of stress on the body.</li>
+                    </ul>
+                </div>
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Increased Neuroplasticity</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">The brain's ability to reorganize and form new neural connections improves, aiding in learning and adaptation.</li>
+                        <li class="dark-text">Faster recovery from neurological injuries.</li>
+                        <li class="dark-text">Improved overall mood and well-being.</li>
+                    </ul>
+                </div>
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Enhanced Creativity</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Improved ability to think outside the box and come up with innovative solutions.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Optimized Brain Health</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Reduced risk of neurodegenerative diseases like Alzheimer's and Parkinson's.</li>
+                        <li class="dark-text">Slowed cognitive decline associated with aging.</li>
+                    </ul>
+                </div>
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Better Mind-Body Connection</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Improved coordination and motor skills.</li>
+                        <li class="dark-text">Enhanced mindfulness and awareness of one's own body.</li>
+                    </ul>
+                </div>
+                <div class="grid-box light-bg">
+                    <h3 class="large-body blue-text">Increased Energy and Alertness</h3>
+                    <ul class="text-left regular-text">
+                        <li class="dark-text">Reduction in feelings of fatigue and brain fog.</li>
+                        <li class="dark-text">Renhanced overall vitality and alertness.</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- How it works -->
-        <section class="section-width flex-container " id="how-it-works">
-            <div class="row ai-c">
+        <section class="section-width flex-container" id="how-it-works">
+            <div class="row ai-c flex-1120">
                 <div class="col-1 explainer-video">
                     <div style="width: 100%; height: 0; position: relative; padding-top: 56.25%; ">
                         <iframe src="https://app.visla.us/embed/1151331803735265280" allow="fullscreen *"
@@ -162,12 +164,12 @@
         </section>
 
         <!-- FAQ -->
-        <section class="section-width flex-container" id="faq">        
-            <h2 class="light-text regular-heading text-center">FAQ</h2>
-            <h3 class="large-body text-center no-space">Frequently Asked Question</h3>
+        <section class="section-width flex-container" id="faq">
+            <h2 class="light-text regular-heading text-center shadow-heading">FAQ</h2>
+            <h3 class="large-body text-center no-space shadow-heading">Frequently Asked Question</h3>
             <div class="row">
                 <div class="col-1">
-                    <div class="faq">
+                    <div class="faq faq-1">
                         <input type="checkbox" id="q1" class="hidecontent">
                         <label for="q1" class="large-body">Q: What exactly is neurohacking?</label>
                         <div class="content hidecontent light-bg">
@@ -196,7 +198,7 @@
                     </div>
                 </div>
                 <div class="col-1">
-                    <div class="faq">
+                    <div class="faq faq-2">
                         <input type="checkbox" id="q6" class="hidecontent">
                         <label for="q6" class="large-body">Q: Can neurohacking help with mental health issues?</label>
                         <div class="content hidecontent light-bg">
@@ -224,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>        
         </section>
 
         <!-- Subscribe -->
@@ -246,8 +248,8 @@
         <footer id="footer">
             <section class="blue-bg ai-c footer" id="contact">
                 <div class="row">
-                    <div class="col-2">
-                        <img src="assets/images/neuronova-logo.png" id="nn-logotype" alt="Logotype NeuroNova">
+                    <div class="col-2 footer-info">
+                        <img src="assets/images/neuronova-logo.png" id="nn-logo" alt="Logotype NeuroNova">
                         <p class="regular-text">Neurohacking isn't just a trend; it's a revolution in understanding and enhancing our brain's capabilities. Dive deep into the world of neurohacking,where science meets self-improvement. Discover techniques to rewire, refine.</p>
                         <div class="some-icons">
                             <a href="https://instagram.com" target="_blank" aria-label="Open instagram in new tab">
@@ -270,7 +272,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 contact">
                         <h3 class="regular-heading" id="get-in-touch">Get in touch</h3>
                         <ul class="contact-info regular-text">
                             <li><a href="https://maps.gooogle.com" target="_blank">Street no.1, Awesome City</a></li>
@@ -285,5 +287,19 @@
                 <a href="#" class="text-center small-text">© NeuroNova 2023</a>
             </div>
         </footer>
+        <script>
+            let openHamburger = document.querySelector('#openHamburger');
+            let closeHamurger = document.querySelector('#closeHamburger');
+            let navigationItems = document.querySelector('#navigation-items');
+
+            const hamburgerEvent = (navigation, close, open) => {
+                navigationItems.style.display = navigation;
+                closeHamurger.style.display = close;
+                openHamburger.style.display = open;
+            };
+
+            openHamburger.addEventListener('click', () => hamburgerEvent("flex", "block", "none"));
+            closeHamurger.addEventListener('click', () => hamburgerEvent("none", "none", "block"));
+        </script>
     </body>
 </html>
