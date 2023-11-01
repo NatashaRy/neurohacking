@@ -244,13 +244,16 @@ a.nav-item:hover {
     background-color: #f5f5f5e8;
 }
 
-#home {
-    height: 100vh;
+.hero-bg-img {
     background-image: url("../images/hero-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+#home {
+    height: 100vh;
 }
 
 .home {
@@ -273,7 +276,7 @@ a.nav-item:hover {
     margin-top: 30px;
 }
 
-#benefits {
+.benefits-hero-img {
     background-image: url("../images/neurohacking-human.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,7 +292,7 @@ a.nav-item:hover {
 }
 
 /*--- FAQ */
-#faq {
+.faq-bg-img {
     height: auto;
     background-image: url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
