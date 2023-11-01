@@ -2,7 +2,7 @@
 ## **Site Overview**
 NeuroNova is an initiative in the realm of cognitive enhancement. We want to provide individuals with knowleadge, tools and techniques to unlock their brain's full potential. Our site is intended to target individuals who are keen on personal growth and cognitive advancement, but also be appealing to professionals aswell as students, and anyone curious about the vast capabilities of the human mind. 
 ​
-![Am I responsive screenshot](imagelocation so maybe docs/image.jpg)
+![Am I responsive screenshot](docs/images/iam-responsive.png)
 ​
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -53,10 +53,10 @@ This is optional but offers the insight into what the aim of the project are
 ​
 ### **Wireframes:**
 ​
-![desktop-wireframes](docs\images\desktop.png) ![tablet-wireframes](docs\images\tablet.png) ![mobile-wireframes](docs\images\mobile.png)
+![desktop-wireframes](docs/images/wireframes/wireframe-desktop.png) ![tablet-wireframes](docs/images/wireframes/wireframe-tablet.png) ![mobile-wireframes](docs/images/wireframes/wireframe-mobile.png)
 ​
 ### **Color Scheme:**
-​![color-scheme](docs\images\ui-elements-color-palette.png)
+​![color-scheme](docs/images/color-palette.png)
 We wanted ​the site to feel futurustic and make the user feel like like their encounting with something innovative and cool. Since we focus a lot on personal development and self-improvement our chosen colors which represent that. 
 
 Our main color is green (#00C853), it use to be associated with something fresh, innovation and growth. 
@@ -67,7 +67,7 @@ We decided to change the use for the colors and focus on a darker background and
 
 ​
 ## **Typography**
-​​![Typography](docs\images\ui-elements-typography.png)
+​​![Typography](docs/images/typography.png)
 * Throughout the page, there are two fonts used:
   * Proxima Nova - Font-weight bold - used for headings, navigation and buttons. Buttons and navigation have uppercase applied as a text transform to make them pop compared to other text.
   * Open Sans - For rest of the element, such as body text and our form. 
@@ -80,9 +80,15 @@ We decided to change the use for the colors and focus on a darker background and
 #### *Navigation Bar:*
 * Provide links to all sections: The navigation bar provides direct links to each section of the page, ensuring users can quickly jump to the content they're interested in.
 * Clear Presentation: Each navigation option is presented in a clear, readable font and style, ensuring users can easily identify where they want to go.
+
+​​![Navigation desktop](docs/images/screenshots/navigation-desktop.png)
+
 * Mobile Optimization: For users on smaller screens, a hamburger menu is provided. This ensures that mobile users have an optimal, clutter-free experience.
-​​![Navigation desktop](docs\images\nav-2.png)
-​​![Navigation mobile](docs\images\nav-2.png)
+​​![Navigation mobile](docs/images/screenshots/navigation-mobile.png)
+
+* Dropdown: We chose to use a dropdown menu with the hamburger menu to make it easy for the user to navigate and select section. 
+​​![Navigation dropdown](docs/images/screenshots/navigation-dropdown.png)
+
 
 #### *Hero section:*
 The hero section is the first thing users see when they visit the site. It sets the tone and introduces them to the concept of neurohacking.
@@ -90,13 +96,53 @@ The hero section is the first thing users see when they visit the site. It sets 
 * Engaging Visuals: The hero section features captivating visuals that draw users in and pique their interest in neurohacking.
 * Clear Call to Action: A clear and compelling call to action encourages users to learn more or take the next step in their neurohacking journey.
 
-​​![Hero](docs\images\hero.png)
+​​![Hero](docs/images/screenshots/hero.png)
+
 
 #### *About section:*
 This section delves into the concept of neurohacking, providing users with a comprehensive overview.
 
 * Informative Content: Users are presented with well-researched and easy-to-understand information about neurohacking.
 * Engaging Layout: Short and concise content is laid out in a way that's engaging and easy to digest.
+
+![About](docs/images/screenshots/about.png)
+
+
+#### *Benefits section:*
+
+* 
+
+![Benefits](docs/images/screenshots/benefits.png)
+
+
+#### *How neurohacking works section:*
+
+* 
+
+![How neurohacking works](docs/images/screenshots/how-to.png)
+
+
+#### *FAQ - Frequently Asked Question*
+
+* 
+
+![FAQ](docs/images/screenshots/faq.png)
+
+
+#### *Submit form*
+
+* 
+
+![Submit form](docs/images/screenshots/form.png)
+
+
+
+#### *Footer*
+
+* 
+
+![Footer](docs/images/screenshots/footer.png)
+
 
 
 ​
@@ -157,23 +203,38 @@ During the manual testing we also tested the websites functionality so the users
 ## **Validators:**
 # **CSS** - https://jigsaw.w3.org/css-validator/ 
 No errors were found.
-![W3C CSS-validator](docs\images\w3c-css-validation.png)
+![Screenshot CSS-validator](docs/images/css-validator.png)
+![W3 CSS validator](https://jigsaw.w3.org/css-validator/images/vcss)
+No errors were found.
+
+We got three warnings regarding the `webkit-animations` for the FAQ, this is not something we are going to solve at this moment since the animations are providing a nice experience for the user. 
 
 # **HTML** - https://validator.w3.org/nu/ 
 No errors were found.
-![W3C HTML validator](docs\images\w3c-html-validator.png)
+![Screenshot HTML validator](docs/images/html-checker.png)
+No errors were found.
 
 ## **Lighthouse score**
 ​We also tested the site in Lighthouse. 
-* The test were preformed in incognito mode to get more accurate results
-* We tested both desktop and mobile
+* The test were preformed in incognito mode to get more accurate results.
+* We tested both desktop and mobile.
 
 # **Desktop**
 Over all a good score both on desktop and mobile.
-Improvment to be made:
-* Performance: Change som image elements (that is not working at the moment).
-* Accessibility: The iframe we tried to fix and a contrast issue, which do not appear when the background image are working as it is supposed to.
-![Ligthouse desktop](docs\images\lighthouse-desktop.png)
+![Ligthouse desktop](docs/images/lighthouse.png)
+## **Improvements to be made:**
+### Performance - 97/100
+* Eliminate render-blocking resources: 
+We understand the importance of eliminating render-blocking resources to improve website loading times and user experience. However, our website is hosted on a GitHub server, which limits our control over server configurations and resource handling. This restriction makes it challenging to fully address the issue. Nonetheless, we are actively exploring possible solutions and improvements within the constraints of the GitHub server environment.
+
+### Performance - 95/100
+* Eliminate render-blocking resources
+
+### Performance - 97/100
+* Eliminate render-blocking resources
+
+### Performance - 97/100
+* Eliminate render-blocking resources
 
 # **Mobile**
 Improvments to be made are the same desktop exept render-blocking should be eliminated on mobile aswell.
