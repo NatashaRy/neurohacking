@@ -552,6 +552,10 @@ a.nav-item:hover {
 
 /* Media query max 460px */
 @media screen and (max-width: 460px) {
+    body {
+        overflow: hidden;
+    }
+    
     .section-width {
         padding: 2%;
     }
