@@ -386,6 +386,15 @@ a.nav-item:hover {
         padding: 7%;
     }
 
+    .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
     .width-55 {
         width: 85%;
     }
