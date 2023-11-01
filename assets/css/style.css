@@ -194,6 +194,7 @@ a.primary-btn:hover, input.submit-btn:hover {
     width: 5em;
     margin-top: 2px;
     float: left;
+    height: auto;
 }
 
 .navigation {
@@ -612,11 +613,14 @@ a.nav-item:hover {
 
     .nn-logo {
         width: 80%;
+        height: auto;
     }
 
     .some-icons {
         padding: 0 10px;
         line-height: 2.5em;
+        width: auto;
+        height: auto;
     }
 
     #get-in-touch {
