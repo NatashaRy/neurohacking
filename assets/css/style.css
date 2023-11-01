@@ -96,6 +96,12 @@ body {
     line-height: 1.1em;
 }
 
+.thanks-heading {
+    background-color: #00e5ff96;
+    padding: 15px 10px;
+    width: auto;
+}
+
 .shadow-heading {
     text-shadow: 1px 1px 15px #000000;
 }
@@ -229,6 +235,15 @@ a.nav-item:hover {
     padding-right: 15px;
 }
 
+/*--- Thank you page */
+.thanks-bg-img {
+    background-image: url("../images/thank-you.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 /*--- Hero */
 .home {
     padding: 4%;
@@ -245,7 +260,7 @@ a.nav-item:hover {
     background-attachment: fixed;
 }
 
-#home {
+#home, .thank-you {
     height: 100vh;
 }
 
