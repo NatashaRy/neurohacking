@@ -169,13 +169,6 @@ a.primary-btn:hover, input.submit-btn:hover {
     background-color: #F5F5F5;
 }
 
-a.primary-btn:active {
-    box-shadow: 2px 4px  #00C853;
-    background-color: #F5F5F5;
-    color: #1A237E;
-    border: solid 2px #212121;
-}
-
 /*--- Header, navigation */
 .header {
     background-color: #1A237E;
@@ -478,6 +471,10 @@ a.nav-item:hover {
 
     .regular-heading, .large-body, .footer, .some-icons {
         text-align: center;
+    }
+
+    .large-heading {
+        font-size: 3.5rem;
     }
 
     .header {
