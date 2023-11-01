@@ -232,6 +232,7 @@ In the intricate dance of professional life, having someone who consistently has
 
 - All code was written by me, some code are inspired by others who are referenced below.
 - Used this guide as inspiration for FAQ: [Stechies.com](https://www.stechies.com/create-accordion-html-without-javascript/)
+- The texts are written by or modified by [ChatGPT](https://chat.openai.com/)
 
   
 ### **Media:**
@@ -243,12 +244,6 @@ In the intricate dance of professional life, having someone who consistently has
 - Screenshoot for README.md [Am I Responsive](https://ui.dev/amiresponsive)
 - Color palette, typography and wireframes were created in [Adobe XD](https://adobexdplatform.com/)
 - Video on "How it works"-section was created with [Chat GPT4 + Visla-plugin](https://chat.openai.com/)
-
-
-- Hero background image:: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
-- Image on about-section: [Stockvault](https://www.stockvault.net/photo/264052/technology-disruption-the-rise-of-artificial-intelligence)
-- Background image on benefits- and FAQ-section: [Canva PRO](https://www.canva.com/photos/MAEEzSWsTXg-artificial-intelligence-technology/)
-
-
+- All images are generated in [Adobe Firefly](https://firefly.adobe.com/)
 
   
