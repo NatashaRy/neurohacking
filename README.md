@@ -21,10 +21,10 @@ NeuroNova is an initiative in the realm of cognitive enhancement. We want to pro
 1. [**Deployment**](#deployment)
 1. [**Tech**](#tech)
 1. [**Credits**](#credits)
-    * [**Honourable mentions**](#honourable-mentions)
-    * [**General reference**](#general-reference)
-    * [**Content**](#content)
-    * [**Media**](#media)
+    * [***Honourable mentions***](#honourable-mentions)
+    * [***General reference***](#general-reference)
+    * [***Content***](#content)
+    * [***Media***](#media)
 ​
 ## **Planning stage**
 ### **Target Audiences:**
