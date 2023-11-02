@@ -244,11 +244,6 @@ a.nav-item:hover {
     background-position: center;
     background-attachment: fixed;
 }
-@supports (background-image: format('webp')) {
-    .thanks-bg-img {
-        background-image: url("../images/thank-you.webp");
-    }
-}
 
 /*--- Hero */
 .home {
@@ -264,11 +259,6 @@ a.nav-item:hover {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-@supports (background-image: format('webp')) {
-    .hero-bg-img {
-        background-image: url("../images/hero-background.webp");
-    }
 }
 
 #home, .thank-you {
@@ -304,11 +294,6 @@ a.nav-item:hover {
     background-attachment: fixed;
     padding: 7% 10%;
 }
-@supports (background-image: format('webp')) {
-    .benefits-bg-img {
-        background-image: url("../images/neurohacking-human.webp");
-    }
-}
 
 /*--- How it works */
 .explainer-video {
@@ -323,11 +308,6 @@ a.nav-item:hover {
     background-position: bottom;
     background-blend-mode: overlay;
     background-attachment: fixed;
-}
-@supports (background-image: format('webp')) {
-    .faq-bg-img {
-        background-image: url("../images/hero-bg.webp");
-    }
 }
 
 .hidecontent {
