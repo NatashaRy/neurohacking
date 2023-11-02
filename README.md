@@ -283,7 +283,9 @@ No errors were found.
 
 #### **Desktop**
 Overall a good score both on desktop and mobile.
+
 ![Lighthouse desktop](docs/images/lighthouse-desktop.png)
+
 ##### **Improvements to be made:**
 ###### Performance - 97/100
 * Eliminate render-blocking resources: 
@@ -293,7 +295,9 @@ We understand the importance of eliminating render-blocking resources to improve
 After careful consideration and testing, we have decided not to implement next-gen formats for our website's background images. Our findings indicate that the use of next-gen formats in this particular case does not improve, and in fact, hinders our website's performance, leading to a suboptimal user experience. We believe that the potential benefits of next-gen formats are outweighed by the drawbacks in this specific scenario. However, it's important to note that we have implemented a fallback system for our HTML images, ensuring that they are served in next-gen formats when supported by the browser. This approach allows us to leverage the advantages of next-gen formats where applicable, while maintaining optimal performance and user experience for our background images.
 
 #### **Mobile**
+
 ![Lighthouse mobile](docs/images/lighthouse-mobile.png)
+
 ##### **Improvements to be made:**
 ###### **Performance** 84/100
 * Eliminate render-blocking resources
