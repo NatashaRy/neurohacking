@@ -277,7 +277,7 @@ a.nav-item:hover {
 /*--- About */
 .about-img {
     width: 100%;
-    height: 100%; 
+    height: auto; 
     box-shadow: 1px 1px 20px #00e5ff3f;
 }
 
