@@ -169,8 +169,6 @@ The footer provides users with additional information and links about the brand 
 ![Footer](docs/images/screenshots/footer.png)
 
 
-
-​
 ## **Future-Enhancements**
 ​
 A website is always evolving, and there are plans to further enhance the neurohacking site to provide an even better user experience.
@@ -202,7 +200,7 @@ Ways we have used Dev Tools to test responsiveness:
 1. Narrowed the screen when opening Dev Tools.
 2. Checked different devices and dimensions.
 
-# **Different devices**
+#### **Different devices**
 We have also tested the website manually on different devices to check the responsiveness. 
 The devices we have used are:
 1. Monitors
@@ -265,7 +263,7 @@ Ways we have used Dev Tools to test functionality:
 
 
 ## **Validators:**
-# **CSS** - https://jigsaw.w3.org/css-validator/ 
+### **CSS** - https://jigsaw.w3.org/css-validator/ 
 No errors were found.
 ![Screenshot CSS-validator](docs/images/css-validator.png)
 ![W3 CSS validator](https://jigsaw.w3.org/css-validator/images/vcss)
@@ -273,37 +271,38 @@ No errors were found.
 
 We got three warnings regarding the `webkit-animations` for the FAQ, this is not something we are going to solve at this moment since the animations are providing a nice experience for the user. 
 
-# **HTML** - https://validator.w3.org/nu/ 
+### **HTML** - https://validator.w3.org/nu/ 
 No errors were found.
 ![Screenshot HTML validator](docs/images/html-checker.png)
 No errors were found.
 
-## **Lighthouse score**
+### **Lighthouse score**
 ​We also tested the site in Lighthouse. 
 * The tests were performed in incognito mode to get more accurate results.
 * We tested both desktop and mobile.
 
-# **Desktop**
+#### **Desktop**
 Overall a good score both on desktop and mobile.
 ![Lighthouse desktop](docs/images/lighthouse-desktop.png)
-## **Improvements to be made:**
-### Performance - 97/100
+##### **Improvements to be made:**
+###### Performance - 97/100
 * Eliminate render-blocking resources: 
 We understand the importance of eliminating render-blocking resources to improve website loading times and user experience. However, our website is hosted on a GitHub server, which limits our control over server configurations and resource handling. This restriction makes it challenging to fully address the issue. Nonetheless, we are actively exploring possible solutions and improvements within the constraints of the GitHub server environment.
 
 * Serve images in modern formats
 After careful consideration and testing, we have decided not to implement next-gen formats for our website's background images. Our findings indicate that the use of next-gen formats in this particular case does not improve, and in fact, hinders our website's performance, leading to a suboptimal user experience. We believe that the potential benefits of next-gen formats are outweighed by the drawbacks in this specific scenario. However, it's important to note that we have implemented a fallback system for our HTML images, ensuring that they are served in next-gen formats when supported by the browser. This approach allows us to leverage the advantages of next-gen formats where applicable, while maintaining optimal performance and user experience for our background images.
 
-# **Mobile**
+#### **Mobile**
 ![Lighthouse mobile](docs/images/lighthouse-mobile.png)
-#### **Performance** 84/100
+##### **Improvements to be made:**
+###### **Performance** 84/100
 * Eliminate render-blocking resources
 Explained above. 
 
 * Serve images in modern formats
 Explained above.
 
-#### **SEO** 97/100
+###### **SEO** 97/100
 * Tap targets are not sized appropriately
 After thorough testing and consideration, we have decided not to address the "tap targets are not sized appropriately" issue. Our decision is based on the results of our extensive testing on mobile devices, which showed that users do not experience any difficulties interacting with the element in question. We believe that our user interface is already optimized for a seamless and user-friendly experience on mobile devices. As a result, we have concluded that resolving this specific issue is not necessary at this time.
 
