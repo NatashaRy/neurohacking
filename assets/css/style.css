@@ -259,8 +259,6 @@ a.nav-item:hover {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: auto;
-    height: auto;
 }
 
 #home, .thank-you {
@@ -293,10 +291,8 @@ a.nav-item:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    height: auto;
     background-attachment: fixed;
     padding: 7% 10%;
-    width: auto;
 }
 
 /*--- How it works */
@@ -306,14 +302,12 @@ a.nav-item:hover {
 
 /*--- FAQ */
 .faq-bg-img {
-    height: auto;
     background-image: url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     background-blend-mode: overlay;
     background-attachment: fixed;
-    width: auto;
 }
 
 .hidecontent {
@@ -422,7 +416,7 @@ a.nav-item:hover {
     }
 
     .row > * {
-        padding: 1rem 1rem;
+        padding: 1rem;
     }
 
     .logo {
