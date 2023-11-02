@@ -259,10 +259,12 @@ a.nav-item:hover {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    width: auto;
+    height: auto;
 }
 
 #home, .thank-you {
-    height: 100vh;
+    height: 98vh;
 }
 
 .home {
@@ -294,6 +296,7 @@ a.nav-item:hover {
     height: auto;
     background-attachment: fixed;
     padding: 7% 10%;
+    width: auto;
 }
 
 /*--- How it works */
@@ -310,6 +313,7 @@ a.nav-item:hover {
     background-position: bottom;
     background-blend-mode: overlay;
     background-attachment: fixed;
+    width: auto;
 }
 
 .hidecontent {
