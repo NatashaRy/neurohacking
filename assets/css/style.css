@@ -191,10 +191,10 @@ a.primary-btn:hover, input.submit-btn:hover {
 }
 
 .nn-icon {
-    width: 5em;
+    height: auto;
+    width: 80px;
     margin-top: 2px;
     float: left;
-    height: auto;
 }
 
 .navigation {
