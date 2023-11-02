@@ -245,7 +245,7 @@ a.nav-item:hover {
     background-attachment: fixed;
 }
 @supports (background-image: format('webp')) {
-    .hero-bg-img {
+    .thanks-bg-img {
         background-image: url("../images/thank-you.webp");
     }
 }
@@ -305,7 +305,7 @@ a.nav-item:hover {
     padding: 7% 10%;
 }
 @supports (background-image: format('webp')) {
-    .hero-bg-img {
+    .benefits-bg-img {
         background-image: url("../images/neurohacking-human.webp");
     }
 }
@@ -325,7 +325,7 @@ a.nav-item:hover {
     background-attachment: fixed;
 }
 @supports (background-image: format('webp')) {
-    .hero-bg-img {
+    .faq-bg-img {
         background-image: url("../images/hero-bg.webp");
     }
 }
