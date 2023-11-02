@@ -238,7 +238,7 @@ a.nav-item:hover {
 
 /*--- Thank you page */
 .thanks-bg-img {
-    background-image: url("../images/thank-you.webp");
+    background-image: url("../images/thank-you.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -287,7 +287,7 @@ a.nav-item:hover {
 }
 
 .benefits-bg-img {
-    background-image: url("../images/neurohacking-human.webp");
+    background-image: url("../images/neurohacking-human.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -302,7 +302,7 @@ a.nav-item:hover {
 
 /*--- FAQ */
 .faq-bg-img {
-    background-image: url("../images/hero-bg.webp");
+    background-image: url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
