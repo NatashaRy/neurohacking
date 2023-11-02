@@ -361,6 +361,7 @@ a.nav-item:hover {
 input#accept-terms {
     width: 20px;
     height: 15px;
+    margin: 10px;
 }
 
 .submit-btn {
